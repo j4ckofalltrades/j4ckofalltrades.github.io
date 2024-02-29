@@ -7,7 +7,7 @@ draft: false
 
 ![banner](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1697951738/blog/banner_f7wcag.png)
 
-Polyglot developer with 10+ years of industry experience.
+Polyglot developer with years of industry experience.
 
 Proficient across a diverse range of tech stacks and well-versed in every phase
 of the application lifecycle; from designing APIs, implementing microservices,
