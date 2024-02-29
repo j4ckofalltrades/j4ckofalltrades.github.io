@@ -1,0 +1,106 @@
+baseurl = "https://jduabe.dev"
+title = "/home/jordan"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+enableEmoji=true
+canonifyurls = true
+
+paginate = 15
+
+[markup.highlight]
+  noClasses = false
+  style = "github-dark"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  author = "Jordan Duabe"
+  info = "Polyglot developer and open-source enthusiast"
+  description = "Personal website and blog"
+  keywords = "blog,programmer,personal"
+  gravatar = "jordan.duabe@gmail.com"
+
+  favicon_32 = "favicon-32x32.png"
+  favicon_16 = "favicon-16x16.png"
+
+  hideFooter = true
+  hideCredits = false
+  hideCopyright = false
+  since = 2020
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  customCSS = []
+  customSCSS = []
+  customJS = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Mail"
+  icon = "fa fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:me@jduabe.dev"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/j4ckofalltrades"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://linkedin.com/in/jordan-duabe"
+[[params.social]]
+  name = "Mastodon"
+  icon = "fa fa-mastodon fa-2x"
+  weight = 4
+  rel = "me"
+  url = "https://fosstodon.org/@j4ckofalltrades"
+[[params.social]]
+  name = "YouTube"
+  icon = "fa fa-youtube fa-2x"
+  weight = 5
+  url = "https://youtube.com/@j4ckofalltrades"
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-rss fa-2x"
+  weight = 6
+  url = "https://jduabe.dev/index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
+[[params.social]]
+  name = "Key"
+  icon = "fa fa-key fa-2x"
+  weight = 7
+  url = "key.asc"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
+[[menu.main]]
+  name = "Projects"
+  weight = 3
+  url  = "projects/"
+[[menu.main]]
+  name = "Talks"
+  weight = 4
+  url  = "talks/"
