@@ -5,8 +5,6 @@ description: "OSS side projects"
 draft: false
 ---
 
-OSS (Open Source Software) projects that I work on, usually for fun. This list also includes other OSS projects that I contribute to and help maintain.
-
 ## Libraries
 
 - [grpc-web-rx](https://npmjs.com/package/grpc-web-rx) -- TypeScript library that integrates gRPC-Web with RxJS

@@ -65,7 +65,7 @@ paginate = 15
   url = "https://linkedin.com/in/jordan-duabe"
 [[params.social]]
   name = "Mastodon"
-  icon = "fa fa-mastodon fa-2x"
+  icon = "fa-brands fa-mastodon fa-2x"
   weight = 4
   rel = "me"
   url = "https://fosstodon.org/@j4ckofalltrades"
