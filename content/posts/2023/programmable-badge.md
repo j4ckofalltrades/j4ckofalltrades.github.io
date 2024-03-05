@@ -9,12 +9,10 @@ tags:
 - badger2040
 - rp2040
 - eink
-images:
-- https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_900/v1688813596/blog/badger2040_x9iaec.jpg
-externalLink: ""
+featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1688813596/blog/badger2040_x9iaec.jpg"
 ---
 
-[Badger2040](https://shop.pimoroni.com/products/badger-2040) is a programmable E Paper/eInk/EPD badge, powered by
+The [Badger2040](https://shop.pimoroni.com/products/badger-2040) is a programmable E Paper/eInk/EPD badge, powered by
 the [RP2040](https://www.raspberrypi.com/products/rp2040).
 
 Some of its features:
@@ -152,7 +150,7 @@ display.rectangle(x, y, width, height)
 
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/v1688813596/blog/badger2040_x9iaec.jpg" />
-  <figcaption style="font-style:italic; text-align: center; font-size: 16px; padding-bottom: 20px;">
+  <figcaption class="caption">
     Badger2040 running the full "badge" code
   </figcaption>
 </figure>

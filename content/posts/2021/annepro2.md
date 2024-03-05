@@ -10,7 +10,7 @@ tags:
 - qmk
 series:
 - "Custom mechanical keyboard builds"
-featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_830/v1633803184/keebs/annepro2/annepro2_xqpg09.jpg"
+featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633803184/keebs/annepro2/annepro2_xqpg09.jpg"
 featuredImageAltText: "Anne Pro 2 with custom wooden case and blank keycaps"
 ---
 

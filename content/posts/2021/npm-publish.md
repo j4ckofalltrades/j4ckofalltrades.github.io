@@ -11,11 +11,9 @@ tags:
 - typescript
 series:
 - "Package registry publish guides"
-images:
-- https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_900,g_face/v1633760759/blog/publish-guides/npm-publish_ssmdeh.png
+featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760759/blog/publish-guides/npm-publish_ssmdeh.png"
+featuredImageAltText: "Sample package in the npm registry"
 ---
-
-![npm](https://res.cloudinary.com/j4ckofalltrades/image/upload/w_1000/v1633760759/blog/publish-guides/npm-publish_ssmdeh.png)
 
 This guide walks you through the necessary steps to upload your package to the
 [npm registry](https://npmjs.com) with some recommendations along the way.

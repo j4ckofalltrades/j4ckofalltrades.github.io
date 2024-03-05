@@ -12,11 +12,9 @@ tags:
 - ossrh
 series:
 - "Package registry publish guides"
-images:
-- https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_900,g_face/v1633760759/blog/publish-guides/mvn-publish_jfglsn.png
+featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760759/blog/publish-guides/mvn-publish_jfglsn.png"
+featuredImageAltText: "Sample package in Maven Central"
 ---
-
-![mvn](https://res.cloudinary.com/j4ckofalltrades/image/upload/w_1000/v1633760759/blog/publish-guides/mvn-publish_jfglsn.png)
 
 This guide walks you through the necessary steps to upload your package to the
 [Maven Central](https://repo.maven.apache.org/maven2) repository (and optionally

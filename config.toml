@@ -26,17 +26,12 @@ favicon_16 = "favicon-16x16.png"
 faviconSVG = "favicon.svg"
 touchIcon = "apple-touch-icon.png"
 
-hideFooter = false
-hideCredits = false
-hideCopyright = false
-since = 2020
-
 enableTwemoji = true
 
 colorScheme = "auto"
-hidecolorschemetoggle = false
+hideColorSchemeToggle = false
 
-custom_css = ["custom.css"]
+customCSS = ["css/custom.css"]
 customSCSS = []
 customJS = []
 

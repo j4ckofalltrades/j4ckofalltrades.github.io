@@ -8,8 +8,8 @@ categories:
 tags:
 - qmk
 - via
-images:
-- https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_900,g_face/v1676107180/keebs/ncr80/ncr-80-via_hlgb5c.png
+featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676107180/keebs/ncr80/ncr-80-via_hlgb5c.png"
+featuredImageAltText: "VIA software showing the keymap for the NCR-80"
 ---
 
 Built the [NCR-80](https://jduabe.dev/posts/2022/ncr-80) last year, great-looking board especially if you like the
@@ -76,6 +76,4 @@ If you have a `V2` definition, you can convert it a `V3` definition by running t
 
 Link to the pull request on GitHub for reference: [Add support for NCR-80](https://github.com/the-via/keyboards/pull/1548)
 
-That's it, once the pull request gets merged VIA should be able to detect your keyboard.
-
-![VIA NCR-80](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676107180/keebs/ncr80/ncr-80-via_hlgb5c.png)
+That's it, ~~once the pull request gets merged~~ VIA should be able to detect your keyboard.

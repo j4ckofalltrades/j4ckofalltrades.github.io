@@ -13,14 +13,12 @@ tags:
 - via
 series:
 - "Custom mechanical keyboard builds"
-images: 
-- https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_900,g_face/v1631712479/keebs/sofle/sofle_t9qeaa.jpg
+featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1631712479/keebs/sofle/sofle_t9qeaa.jpg"
+featuredImageAltText: "Sofle V2 custom mechanical keyboard"
 ---
 
-![keeb](https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_900/v1631712479/keebs/sofle/sofle_t9qeaa.jpg)
-
-> The [SofleKeyboard](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html)
-> is a 6×4+5 keys column-staggered split keyboard with encoder support. Based on the Lily58, Corne, and Helix keyboards.
+The [SofleKeyboard](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html)
+is a 6×4+5 keys column-staggered split keyboard with encoder support. Based on the Lily58, Corne, and Helix keyboards.
 
 First time trying out ortholinear and split mechanical keyboards with this build.
 
