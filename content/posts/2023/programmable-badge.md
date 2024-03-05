@@ -148,11 +148,4 @@ display.rectangle(x, y, width, height)
 
 ## Putting it all together
 
-<figure>
-  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/v1688813596/blog/badger2040_x9iaec.jpg" />
-  <figcaption class="caption">
-    Badger2040 running the full "badge" code
-  </figcaption>
-</figure>
-
 <script src="https://gist.github.com/j4ckofalltrades/a4ec95b3e077fd7c294d20ef8095f480.js"></script>

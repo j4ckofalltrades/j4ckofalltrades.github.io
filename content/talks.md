@@ -5,7 +5,7 @@ description: "Talks"
 draft: false
 ---
 
-## [Git Deep Dive](https://jduabe.dev/git-deep-dive)
+## Git Deep Dive
 
 A talk about git for SheCodes Plus Masterclass Day 2024.
 
@@ -15,9 +15,7 @@ Workflow), dealing with merge conflicts, comparing merge vs rebase, git
 commands that you might not have heard of before (that you can add to your
 toolkit), and a bunch of tips and tricks.
 
-- [HTML](https://jduabe.dev/git-deep-dive)
-- [Markdown](https://github.com/j4ckofalltrades/talks/blob/main/git-deep-dive/git-deep-dive.md)
-- [PDF](https://github.com/j4ckofalltrades/talks/blob/main/git-deep-dive/git-deep-dive.pdf)
+- [Talk Slides](https://github.com/j4ckofalltrades/talks/blob/main/git-deep-dive)
 
 ## PyPI Trusted Publishing
 

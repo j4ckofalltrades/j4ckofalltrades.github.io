@@ -18,42 +18,54 @@ I configured as a digital lanyard.
 Here's a couple of other interesting keyboards that I managed to take pictures of.
 
 <figure>
-  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1514_w40sx6.jpg">
+  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1514_w40sx6.jpg"
+    alt="Handwired Dactyl Manuform"
+  />
   <figcaption class="caption">
     Handwired Dactyl Manuform
   </figcaption>
 <figure>
 
 <figure>
-  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1509_wkb8vv.jpg">
+  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1509_wkb8vv.jpg"
+    alt="Custom southpaw Alice with GMK Cobalt keycaps and WS Heavy tactile switches"
+  />
   <figcaption class="caption">
     Custom southpaw Alice with GMK Cobalt keycaps and WS Heavy tactile switches
   </figcaption>
 <figure>
 
 <figure>
-  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1513_tuqzmd.jpg">
+  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1513_tuqzmd.jpg"
+    alt="Glove 80 with Choc brown switches"
+  />
   <figcaption class="caption">
     Glove 80 with Choc brown switches
   </figcaption>
 <figure>
 
 <figure>
-  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1508_x0ezlw.jpg">
+  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1508_x0ezlw.jpg"
+    alt="GHS.JEM with GMK striker keycaps and Creamsicles switches"
+  />
   <figcaption class="caption">
     GHS.JEM with GMK striker keycaps and Creamsicles switches
   </figcaption>
 <figure>
 
 <figure>
-  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1516_yfkb6x.jpg">
+  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1516_yfkb6x.jpg"
+    alt="From L to R (top to bottom): JTD Works Ovinnik, S60 Proto, Finderworks Tengu, F1 Pink Cerakote"
+  />
   <figcaption class="caption">
     From L to R (top to bottom): JTD Works Ovinnik, S60 Proto, Finderworks Tengu, F1 Pink Cerakote
   </figcaption>
 <figure>
 
 <figure>
-  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1515_b8db3w.jpg">
+  <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1515_b8db3w.jpg"
+    alt="Sega Dreamcast running 'Typing of the Dead' game with a 60% and 65% keyboard as controllers"
+  />
   <figcaption class="caption">
     Sega Dreamcast running "Typing of the Dead" game with a 60% and 65% keyboard as controllers
   </figcaption>
