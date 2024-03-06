@@ -8,63 +8,63 @@ canonifyurls = true
 paginate = 10
 
 [markup.highlight]
-noClasses = false
-style = "github-dark"
+  noClasses = false
+  style = "github-dark"
 
 [markup.goldmark.renderer]
-unsafe = true
+  unsafe = true
 
 [params]
-author = "Jordan Duabe"
-info = "Polyglot developer and open-source enthusiast"
-description = "Personal website and blog"
-keywords = "blog,programmer,personal"
-gravatar = "jordan.duabe@gmail.com"
+  author = "Jordan Duabe"
+  info = "Polyglot developer and open-source enthusiast"
+  description = "Personal website and blog"
+  keywords = "blog,programmer,personal"
+  gravatar = "jordan.duabe@gmail.com"
 
-favicon_32 = "favicon-32x32.png"
-favicon_16 = "favicon-16x16.png"
-faviconSVG = "favicon.svg"
-touchIcon = "apple-touch-icon.png"
+  favicon_32 = "favicon-32x32.png"
+  favicon_16 = "favicon-16x16.png"
+  faviconSVG = "favicon.svg"
+  touchIcon = "apple-touch-icon.png"
 
-enableTwemoji = true
+  enableTwemoji = true
 
-colorScheme = "auto"
-hideColorSchemeToggle = false
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
 
-customCSS = ["css/custom.css"]
-customSCSS = []
-customJS = []
+  customCSS = ["css/custom.css"]
+  customSCSS = []
+  customJS = []
 
 [taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-author = "authors"
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
 
 [[params.social]]
-name = "Mail"
-icon = "fa fa-envelope fa-2x"
-weight = 1
-url = "mailto:me@jduabe.dev"
+  name = "Mail"
+  icon = "fa fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:me@jduabe.dev"
 
 [[params.social]]
-name = "Github"
-icon = "fa-brands fa-github fa-2x"
-weight = 2
-url = "https://github.com/j4ckofalltrades"
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/j4ckofalltrades"
 
 [[params.social]]
-name = "LinkedIn"
-icon = "fa fa-linkedin fa-2x"
-weight = 3
-url = "https://linkedin.com/in/jordan-duabe"
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://linkedin.com/in/jordan-duabe"
 
 [[params.social]]
-name = "Mastodon"
-icon = "fa-brands fa-mastodon fa-2x"
-weight = 4
-rel = "me"
-url = "https://fosstodon.org/@j4ckofalltrades"
+  name = "Mastodon"
+  icon = "fa-brands fa-mastodon fa-2x"
+  weight = 4
+  rel = "me"
+  url = "https://fosstodon.org/@j4ckofalltrades"
 
 [[params.social]]
 name = "YouTube"
@@ -92,16 +92,16 @@ weight = 1
 url = "about/"
 
 [[menu.main]]
-name = "Blog"
-weight = 2
-url  = "posts/"
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
 
 [[menu.main]]
-name = "Projects"
-weight = 3
-url  = "projects/"
+  name = "Projects"
+  weight = 3
+  url  = "projects/"
 
 [[menu.main]]
-name = "Talks"
-weight = 4
-url  = "talks/"
+  name = "Talks"
+  weight = 4
+  url  = "talks/"
