@@ -1,5 +1,5 @@
 baseurl = "https://jduabe.dev"
-title = "/home/jordan"
+title = "jduabe.dev"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -16,6 +16,7 @@ paginate = 10
 
 [params]
   author = "Jordan Duabe"
+  email = "me@jduabe.dev"
   info = "Polyglot developer and open-source enthusiast"
   description = "Personal website and blog"
   keywords = "blog,programmer,personal"
@@ -54,42 +55,49 @@ paginate = 10
   url = "https://github.com/j4ckofalltrades"
 
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 3
-  url = "https://linkedin.com/in/jordan-duabe"
-
-[[params.social]]
   name = "Mastodon"
   icon = "fa-brands fa-mastodon fa-2x"
-  weight = 4
+  weight = 3
   rel = "me"
   url = "https://fosstodon.org/@j4ckofalltrades"
 
 [[params.social]]
-name = "YouTube"
-icon = "fa fa-youtube fa-2x"
-weight = 5
-url = "https://youtube.com/@j4ckofalltrades"
+  name = "Discord"
+  icon = "fa-brands fa-discord fa-2x"
+  weight = 4
+  rel = "me"
+  url = "https://discord.com/users/556870829539852349"
 
 [[params.social]]
-name = "RSS"
-icon = "fa fa-rss fa-2x"
-weight = 6
-url = "https://jduabe.dev/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 5
+  url = "https://linkedin.com/in/jordan-duabe"
 
 [[params.social]]
-name = "Key"
-icon = "fa fa-key fa-2x"
-weight = 7
-url = "key.asc"
+  name = "YouTube"
+  icon = "fa fa-youtube fa-2x"
+  weight = 6
+  url = "https://youtube.com/@j4ckofalltrades"
+
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-rss fa-2x"
+  weight = 7
+  url = "posts/index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
+
+[[params.social]]
+  name = "Key"
+  icon = "fa fa-key fa-2x"
+  weight = 8
+  url = "key.asc"
 
 [[menu.main]]
-name = "About"
-weight = 1
-url = "about/"
+  name = "About"
+  weight = 1
+  url = "about/"
 
 [[menu.main]]
   name = "Blog"
