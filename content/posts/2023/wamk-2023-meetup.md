@@ -19,7 +19,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
 
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1514_w40sx6.jpg"
-    alt="Handwired Dactyl Manuform"
+    alt="Blue Dactyl Manuform custom mechanical keyboard"
   />
   <figcaption class="caption">
     Handwired Dactyl Manuform
@@ -28,7 +28,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
 
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1509_wkb8vv.jpg"
-    alt="Custom southpaw Alice with GMK Cobalt keycaps and WS Heavy tactile switches"
+    alt="Polycarbonate southpaw Alice custom mechanical keyboard with blue, gray, and pink GMK Cobalt keycaps."
   />
   <figcaption class="caption">
     Custom southpaw Alice with GMK Cobalt keycaps and WS Heavy tactile switches
@@ -37,7 +37,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
 
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1513_tuqzmd.jpg"
-    alt="Glove 80 with Choc brown switches"
+    alt="White Glove 80 custom mechanical keyboard with white stock keycaps"
   />
   <figcaption class="caption">
     Glove 80 with Choc brown switches
@@ -46,7 +46,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
 
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1508_x0ezlw.jpg"
-    alt="GHS.JEM with GMK striker keycaps and Creamsicles switches"
+    alt="Blue GHS.JEM custom mechanical keyboard with blue GMK striker keycaps"
   />
   <figcaption class="caption">
     GHS.JEM with GMK striker keycaps and Creamsicles switches
@@ -55,7 +55,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
 
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1516_yfkb6x.jpg"
-    alt="From L to R (top to bottom): JTD Works Ovinnik, S60 Proto, Finderworks Tengu, F1 Pink Cerakote"
+    alt="From L to R (top to bottom): Pink JTD Works Ovinnik, Pink S60 Proto, Pink Finderworks Tengu, and pink F1 Pink Cerakote custom mechanical keyboards."
   />
   <figcaption class="caption">
     From L to R (top to bottom): JTD Works Ovinnik, S60 Proto, Finderworks Tengu, F1 Pink Cerakote
@@ -64,7 +64,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
 
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1515_b8db3w.jpg"
-    alt="Sega Dreamcast running 'Typing of the Dead' game with a 60% and 65% keyboard as controllers"
+    alt="A table with a Sega Dreamcast gaming console running the 'Typing of the Dead' game with a 60% and 65% mechanical keyboards as controllers."
   />
   <figcaption class="caption">
     Sega Dreamcast running "Typing of the Dead" game with a 60% and 65% keyboard as controllers
