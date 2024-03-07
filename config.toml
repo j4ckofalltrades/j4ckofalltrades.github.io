@@ -33,7 +33,7 @@ paginate = 10
   hideColorSchemeToggle = false
 
   customCSS = ["css/custom.css"]
-  customSCSS = []
+  customSCSS = ["scss/custom.scss"]
   customJS = []
 
 [taxonomies]

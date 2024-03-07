@@ -38,15 +38,35 @@
         {{ .Content }}
       </div>
 
+      {{- if .Params.series -}}
+        {{- with index (.GetTerms "series") 0 -}}
+          <div class="notice--info">
+            <p>This post is part of the <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a> series.</p>
+          </div>
+        {{- end -}}
+      {{- end -}}
+
+    {{- if .Params.series -}}
+      <div class="post-series">
+        {{- $series := where .Site.RegularPages.ByDate ".Params.series" "intersect" .Params.series -}}
+        {{- with $series -}}
+        <ol>
+            {{- range . -}}
+            <li>
+                {{- if eq .File.UniqueID $.File.UniqueID -}}
+                    <b>{{ .Title }}</b>
+                {{- else -}}
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                {{- end -}}
+            </li>
+            {{- end -}}
+        </ol>
+        {{- end -}}
+      </div>
+    {{- end -}}
 
       <footer>
-        {{ partial "posts/series.html" . }}
-        {{ partial "posts/disqus.html" . }}
-        {{ partial "posts/commento.html" . }}
-        {{ partial "posts/utterances.html" . }}
-        {{ partial "posts/giscus.html" . }}
         {{ partial "posts/mastodon.html" . }}
-        {{ partial "posts/telegram.html" . }}
       </footer>
     </article>
 
