@@ -7,12 +7,13 @@ enableEmoji=true
 canonifyurls = true
 paginate = 10
 
-[markup.highlight]
-  noClasses = false
-  style = "github-dark"
+[markup]
+  [markup.highlight]
+    noClasses = true
+    style = "base16-snazzy"
 
-[markup.goldmark.renderer]
-  unsafe = true
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [params]
   author = "Jordan Duabe"
@@ -62,27 +63,27 @@ paginate = 10
   url = "https://fosstodon.org/@j4ckofalltrades"
 
 [[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin-in fa-2x"
+  weight = 4
+  url = "https://linkedin.com/in/jordan-duabe"
+
+[[params.social]]
   name = "Discord"
   icon = "fa-brands fa-discord fa-2x"
-  weight = 4
+  weight = 5
   rel = "me"
   url = "https://discord.com/users/556870829539852349"
 
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 5
-  url = "https://linkedin.com/in/jordan-duabe"
-
-[[params.social]]
   name = "YouTube"
-  icon = "fa fa-youtube fa-2x"
+  icon = "fa-brands fa-youtube fa-2x"
   weight = 6
   url = "https://youtube.com/@j4ckofalltrades"
 
 [[params.social]]
   name = "RSS"
-  icon = "fa fa-rss fa-2x"
+  icon = "fa-solid fa-rss fa-2x"
   weight = 7
   url = "posts/index.xml"
   rel = "alternate"

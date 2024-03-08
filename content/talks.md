@@ -15,7 +15,7 @@ Workflow), dealing with merge conflicts, comparing merge vs rebase, git
 commands that you might not have heard of before (that you can add to your
 toolkit), and a bunch of tips and tricks.
 
-- [Talk Slides](https://github.com/j4ckofalltrades/talks/blob/main/git-deep-dive)
+- [Slides](https://github.com/j4ckofalltrades/talks/blob/main/git-deep-dive)
 
 ## PyPI Trusted Publishing
 
