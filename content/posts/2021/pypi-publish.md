@@ -14,10 +14,12 @@ featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760
 featuredImageAltText: "Sample package in the PyPI registry"
 ---
 
-Update (2024-03-08): Bump the `checkout` and `setup-python` action versions, and set target `python` version to 3.9.
+_Update (2024-03-08): Bump the `checkout` and `setup-python` action versions, and set target `python` version to 3.9._
 
 This guide walks you through the necessary steps to upload your package to the
 :snake: Python Package Index (PyPI) with some recommendations along the way.
+
+{{< toc >}}
 
 ## Dry-run (Publishing to TestPyPI)
 

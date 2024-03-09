@@ -15,6 +15,11 @@ paginate = 10
   [markup.goldmark.renderer]
     unsafe = true
 
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
 [params]
   author = "Jordan Duabe"
   email = "me@jduabe.dev"

@@ -16,11 +16,13 @@ featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760
 featuredImageAltText: "Sample package in Maven Central"
 ---
 
-Update (2024-03-08): Bump the `checkout` and `setup-java` action versions, and set target Java version to 17. 
+_Update (2024-03-08): Bump the `checkout` and `setup-java` action versions, and set target Java version to 17._ 
 
 This guide walks you through the necessary steps to upload your package to the
 [Maven Central](https://repo.maven.apache.org/maven2) repository (and optionally
 to GitHub Packages registry) with some recommendations along the way.
+
+{{< toc >}}
 
 ## Setup OSSRH Repository
 

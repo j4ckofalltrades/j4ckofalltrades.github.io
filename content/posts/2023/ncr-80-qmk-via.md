@@ -8,19 +8,19 @@ categories:
 tags:
 - qmk
 - via
-featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676107180/keebs/ncr80/ncr-80-via_hlgb5c.png"
-featuredImageAltText: "VIA software showing the keymap for the NCR-80"
+featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1645196848/keebs/ncr80/ncr-80_vnf9hq.jpg"
+featuredImageAltText: "NCR-80 custom mechanical keyboard with Katha Baybayin red, white, and blue keycaps"
 ---
 
 Built the [NCR-80](https://jduabe.dev/posts/2022/ncr-80) last year, great-looking board especially if you like the
 retro aesthetic, and is a pleasure to type on.
 
-![NCR-80 custom mechanical keyboard with Katha Baybayin red, white, and blue keycaps](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1645196848/keebs/ncr80/ncr-80_vnf9hq.jpg)
-
 One thing I did notice was that the product listing points to a Google Drive link to the pre-compiled [QMK and VIA firmware](https://drive.google.com/drive/folders/1e3mjUg-N15SFVrExlBiI01-XOKpPm9ry?usp=sharing),
 but it hasn't been added to the QMK and VIA repositories. I thought this would be a good weekend project (**Spoiler**: it took longer than a weekend).
 
 I wrote the steps of how I got it done (the steps also apply to any keyboard firmware).
+
+{{< toc >}}
 
 ## Converting KBFirmware JSON to QMK
 
@@ -79,3 +79,5 @@ If you have a `V2` definition, you can convert it a `V3` definition by running t
 Link to the pull request on GitHub for reference: [Add support for NCR-80](https://github.com/the-via/keyboards/pull/1548)
 
 That's it, ~~once the pull request gets merged~~ VIA should be able to detect your keyboard.
+
+![VIA software showing the keymap for the NCR-80 keyboard](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676107180/keebs/ncr80/ncr-80-via_hlgb5c.png)

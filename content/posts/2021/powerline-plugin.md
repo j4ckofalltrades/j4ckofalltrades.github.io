@@ -26,6 +26,8 @@ While it comes with a lot of integrations out of the box i.e. `bash`, `zsh`,
 This should serve as a quick guide for rolling your own custom Powerline
 plugin.
 
+{{< toc >}}
+
 ## Basic structure and configuration
 
 Each powerline segment is a callable object. It is supposed to be either a

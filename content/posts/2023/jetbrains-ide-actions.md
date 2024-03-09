@@ -13,11 +13,11 @@ featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709917
 featuredImageAltText: "Intellij IDEA with a 'Hello world!' popup message"
 ---
 
-Update (2024-03-08):
+_Update (2024-03-08):_
 
-- Removed embedded gist and linked to GitHub instead.
-- Add banner image and demo gif to this post.
-- JetBrains has since released an [official plugin](https://github.com/JetBrains/intellij-streamdeck-plugin) on August 2023 but if you're running Linux (Stream Deck SDK only supports Windows and Mac currently) you may still find this article guide useful.
+- _Removed embedded gist and linked to GitHub instead._
+- _Add banner image and demo gif to this post._
+- _JetBrains has since released an [official plugin](https://github.com/JetBrains/intellij-streamdeck-plugin) on August 2023 but if you're running Linux (Stream Deck SDK only supports Windows and Mac currently) you may still find this article guide useful._
 
 I've had a Stream Deck for a while now but haven't really configured it
 for any coding related workflows. I use several JetBrains IDEs for work and
@@ -32,6 +32,8 @@ operating system.
 
 Ideally there would be a command where you can provide an *action* to the IDE,
 possibly through a plugin.
+
+{{< toc >}}
 
 ## IDE Scripting Console
 
@@ -246,7 +248,7 @@ cleanup
 
 The code is also available on GitHub as a [gist](https://gist.github.com/j4ckofalltrades/d7aac303466746e67287441e4fb9e0fe).
 
-## Demo: Launching the Help Menu (in Intellij IDEA) programmatically
+## Demo: Launching the Help Menu programmatically
 
 The `Help Menu` action is invoked programatically by clicking on a configured button on the Stream Deck.
 

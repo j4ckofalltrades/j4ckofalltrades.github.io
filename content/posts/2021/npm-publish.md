@@ -15,10 +15,12 @@ featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760
 featuredImageAltText: "Sample package in the npm registry"
 ---
 
-Update (2024-03-08): Bump the `checkout` and `setup-node` action versions, and set target `node` version to 18.x.
+_Update (2024-03-08): Bump the `checkout` and `setup-node` action versions, and set target `node` version to 18.x._
 
 This guide walks you through the necessary steps to upload your package to the
 [npm registry](https://npmjs.com) with some recommendations along the way.
+
+{{< toc >}}
 
 ## Setup npm account
 

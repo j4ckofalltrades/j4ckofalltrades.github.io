@@ -13,7 +13,7 @@ featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1688813
 featuredImageAltText: "Badger2040 with the header text WAMK Meetup 2023 and the attendee's name"
 ---
 
-Update (2024-03-08): Remove embedded gist and linked to GitHub instead.
+_Update (2024-03-08): Remove embedded gist and linked to GitHub instead._
 
 The [Badger2040](https://shop.pimoroni.com/products/badger-2040) is a programmable E Paper/eInk/EPD badge, powered by
 the [RP2040](https://www.raspberrypi.com/products/rp2040).
