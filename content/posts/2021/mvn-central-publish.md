@@ -229,7 +229,7 @@ approach for signing artifacts. Check out the docs for the [Gradle Signing
 Plugin](https://docs.gradle.org/current/userguide/signing_plugin.html) to find
 out what best suits your use case.
 
-Once everything is configured, publishing the articats is as simple as running:
+Once everything is configured, publishing the artifacts is as simple as running:
 
 `$ gradle publish`
 
