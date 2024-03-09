@@ -42,7 +42,3 @@ draft: false
 ## Stream Deck plugins
 
 - [obsideck](https://github.com/j4ckofalltrades/obsideck)️ -- Stream Deck plugin that runs commands in Obsidian
-
-## Linguistics
-
-- [tugma](https://github.com/j4ckofalltrades/tugma) -- Word-guessing game using words from the [Hiligaynon](https://en.wikipedia.org/wiki/Hiligaynon_language) language

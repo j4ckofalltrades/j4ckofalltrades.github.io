@@ -15,6 +15,8 @@ featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760
 featuredImageAltText: "Sample package in the npm registry"
 ---
 
+Update (2024-03-08): Bump the `checkout` and `setup-node` action versions, and set target `node` version to 18.x.
+
 This guide walks you through the necessary steps to upload your package to the
 [npm registry](https://npmjs.com) with some recommendations along the way.
 
@@ -77,7 +79,7 @@ package page at npmjs.com/package/your-package-name.
 
 Congrats, you've successfully published your package to the npm registry. :tada:
 
-## Bonus: Automation with GitHub Packages
+## Bonus: Automation with GitHub Actions
 
 You'll probably want to automate this process as part of your CI/CD pipeline.
 Here's how to set it up using GitHub Actions.
@@ -91,33 +93,33 @@ find this under Settings > Secrets for your repo. Give the secret a name e.g.
 3. Create a GitHub action workflow file in your repo at
 `.github/workflows/npm-publish.yml` with the following contents:
 
-    ```yaml
-    name: Publish package to npm
+```yaml
+name: Publish package to npm
 
-    on:
-    release:
-        types: [created]
-    
-    jobs:
-    build:
-        runs-on: ubuntu-latest
-        permissions:
-        contents: read
-        packages: write
-        steps:
-        - uses: actions/checkout@v2
-        - uses: actions/setup-node@v1
-            with:
-            node-version: '14.x'
-            registry-url: 'https://registry.npmjs.org'
-        - run: npm install
-        - run: npm test
-        - run: npm run build
-        # Publish to npm (append `--access public` for scoped packages)
-        - run: npm publish
-            env:
-            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-    ```
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+    contents: read
+    packages: write
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+        with:
+        node-version: '18.x'
+        registry-url: 'https://registry.npmjs.org'
+    - run: npm install
+    - run: npm test
+    - run: npm run build
+    # Publish to npm (append `--access public` for scoped packages)
+    - run: npm publish
+        env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+```
 
     This workflow is triggered when a new release is created but you can also
     configure it to be triggered when a different event happens e.g. when a

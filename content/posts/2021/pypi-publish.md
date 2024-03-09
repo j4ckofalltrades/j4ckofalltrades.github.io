@@ -14,6 +14,8 @@ featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760
 featuredImageAltText: "Sample package in the PyPI registry"
 ---
 
+Update (2024-03-08): Bump the `checkout` and `setup-python` action versions, and set target `python` version to 3.9.
+
 This guide walks you through the necessary steps to upload your package to the
 :snake: Python Package Index (PyPI) with some recommendations along the way.
 
@@ -156,7 +158,7 @@ package
 
     Congrats, you've successfully published your pacakge to PyPI. :tada:
 
-## Bonus: Automation with GitHub Packages
+## Bonus: Automation with GitHub Actions
 
 You'll probably want to automate this process as part of your CI/CD pipeline.
 Here's how to set it up using GitHub Actions.
@@ -174,35 +176,35 @@ this under Settings > Secrets for your repo. Give the secret a name e.g.
     name: Publish package to PyPI
     
     on:
-    release:
+      release:
         types: [created]
     
     jobs:
-    build-n-publish:
+      build-n-publish:
         name: Build and publish to PyPI
-        runs-on: ubuntu-18.04
+        runs-on: ubuntu-latest
         steps:
-        - uses: actions/checkout@master
+        - uses: actions/checkout@v4
     
-        - name: Set up Python 3.7
-            uses: actions/setup-python@v1
-            with:
-            python-version: 3.7
+        - name: Set up Python 3.9
+          uses: actions/setup-python@v4
+          with:
+            python-version: 3.9
     
         - name: Install pypa/build
             run: >-
-            python -m
-            pip install
-            build
-            --user
+              python -m
+              pip install
+              build
+              --user
         - name: Build a binary wheel and a source tarball
             run: >-
-            python -m
-            build
-            --sdist
-            --wheel
-            --outdir dist/
-            .
+              python -m
+              build
+              --sdist
+              --wheel
+              --outdir dist/
+              .
         - name: Publish package
             uses: pypa/gh-action-pypi-publish@release/v1
             with:

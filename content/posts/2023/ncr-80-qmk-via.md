@@ -15,6 +15,8 @@ featuredImageAltText: "VIA software showing the keymap for the NCR-80"
 Built the [NCR-80](https://jduabe.dev/posts/2022/ncr-80) last year, great-looking board especially if you like the
 retro aesthetic, and is a pleasure to type on.
 
+![NCR-80 custom mechanical keyboard with Katha Baybayin red, white, and blue keycaps](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1645196848/keebs/ncr80/ncr-80_vnf9hq.jpg)
+
 One thing I did notice was that the product listing points to a Google Drive link to the pre-compiled [QMK and VIA firmware](https://drive.google.com/drive/folders/1e3mjUg-N15SFVrExlBiI01-XOKpPm9ry?usp=sharing),
 but it hasn't been added to the QMK and VIA repositories. I thought this would be a good weekend project (**Spoiler**: it took longer than a weekend).
 

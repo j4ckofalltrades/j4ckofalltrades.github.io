@@ -10,7 +10,10 @@ tags:
 - rp2040
 - eink
 featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1688813596/blog/badger2040_x9iaec.jpg"
+featuredImageAltText: "Badger2040 with the header text WAMK Meetup 2023 and the attendee's name"
 ---
+
+Update (2024-03-08): Remove embedded gist and linked to GitHub instead.
 
 The [Badger2040](https://shop.pimoroni.com/products/badger-2040) is a programmable E Paper/eInk/EPD badge, powered by
 the [RP2040](https://www.raspberrypi.com/products/rp2040).
@@ -148,4 +151,44 @@ display.rectangle(x, y, width, height)
 
 ## Putting it all together
 
-<script src="https://gist.github.com/j4ckofalltrades/a4ec95b3e077fd7c294d20ef8095f480.js"></script>
+```python
+# Using the Badger2040 as a digital badge / lanyard
+
+import badger2040
+
+WIDTH = badger2040.WIDTH    # 296
+HEIGHT = badger2040.HEIGHT  # 128
+
+BANNER_HEIGHT = 30
+BANNER_TEXT_SIZE = 0.8
+NAME_PADDING_LEFT = 60
+
+# badge contents
+BANNER = "Random Event"
+NAME = "First Name"
+HANDLE = "@handle"
+
+display = badger2040.Badger2040()
+
+# draw banner
+display.set_pen(15)
+display.set_font("serif")
+display.text(BANNER, 20, (BANNER_HEIGHT // 2) + 1, WIDTH, BANNER_TEXT_SIZE)
+display.rectangle(1, BANNER_HEIGHT + 1, WIDTH + 1, HEIGHT - BANNER_HEIGHT)
+
+# draw name
+display.set_pen(0)
+display.set_thickness(2)
+display.set_font("sans")
+display.text(NAME, NAME_PADDING_LEFT, HEIGHT - 60, WIDTH, 1.7)
+display.text(HANDLE, NAME_PADDING_LEFT, HEIGHT - 20, WIDTH, 0.7)
+
+# draw border enclosing banner and name
+display.set_thickness(5)
+display.line(WIDTH, 0, WIDTH - 1, HEIGHT)
+display.line(0, HEIGHT, WIDTH - 1, HEIGHT - 1)
+
+display.update()
+```
+
+The code is also available on GitHub as a [gist](https://gist.github.com/j4ckofalltrades/a4ec95b3e077fd7c294d20ef8095f480).

@@ -9,7 +9,15 @@ tags:
 - bash
 - ide
 - automation
+featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709917134/blog/ide-scripting_w6bswp.png"
+featuredImageAltText: "Intellij IDEA with a 'Hello world!' popup message"
 ---
+
+Update (2024-03-08):
+
+- Removed embedded gist and linked to GitHub instead.
+- Add banner image and demo gif to this post.
+- JetBrains has since released an [official plugin](https://github.com/JetBrains/intellij-streamdeck-plugin) on August 2023 but if you're running Linux (Stream Deck SDK only supports Windows and Mac currently) you may still find this article guide useful.
 
 I've had a Stream Deck for a while now but haven't really configured it
 for any coding related workflows. I use several JetBrains IDEs for work and
@@ -80,7 +88,7 @@ Up to now, I've been able to play around with the scripts from within the IDEs
 
 Fortunately, this feature is already available since [version 2021.1](https://youtrack.jetbrains.com/issue/IDEA-245847);
 it requires the command line scripts for the IDEs to be installed e.g.
-`idea` for Intellij IDEA. This can be configured via the [JetBrains Toolbox](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#toolbox).
+`idea` for Intellij, this can be configured via the [JetBrains Toolbox](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#toolbox).
 
 The command to run script(s) is `idea ideScript <files>`.
 
@@ -120,19 +128,130 @@ will look like `ide-script.sh --ide idea --action action_name_to_perform`
 
 ## Putting it all together
 
-As a side note, Intellij IDEA ships with Kotlin so the samples will work there
--- it may work on other IDEs if the Kotlin plugin is installed but I haven't
-tested that so YMMV.
-
-I ended up using Groovy since that ships with the other IDEs I mentioned earlier
-and I've been able to verify that it works on WebStorm and PyCharm. As for
-operating systems, I've tested this script on both macOS and Linux. The steps
-should be similar on Windows; you also might be able to reuse the shell script
+I've tested this script on both macOS and Linux. The steps should be similar on Windows; you also might be able to reuse the shell script
 if you are running WSL but I imagine you'll need to update the path of the
 command-line IDE launchers.
 
-<script src="https://gist.github.com/j4ckofalltrades/d7aac303466746e67287441e4fb9e0fe.js"></script>
+```sh
+#!/usr/bin/env bash
 
-You can find the full code on [GitHub](https://gist.github.com/j4ckofalltrades/d7aac303466746e67287441e4fb9e0fe).
+set -Eeuo pipefail
+trap cleanup SIGINT SIGTERM ERR EXIT
+
+script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd -P)
+ide_script_name="ide_script.groovy"
+
+usage() {
+  cat <<EOF
+Usage: $(basename "${BASH_SOURCE[0]}") [-h] [-f] -i ide -a action
+Shell script wrapper that executes actions on JetBrains IDEs via the scripting console.
+Available options:
+-h, --help    Print this help and exit
+-i, --ide     JetBrains IDE command-line launcher e.g. idea, webstorm, pycharm
+-a, --action  IDE action to execute
+EOF
+  exit
+}
+
+cleanup() {
+  trap - SIGINT SIGTERM ERR EXIT
+  rm -f "$script_dir/$ide_script_name"
+}
+
+setup_colors() {
+  if [[ -t 2 ]] && [[ -z "${NO_COLOR-}" ]] && [[ "${TERM-}" != "dumb" ]]; then
+    NOFORMAT='\033[0m' RED='\033[0;31m' GREEN='\033[0;32m' ORANGE='\033[0;33m' BLUE='\033[0;34m' PURPLE='\033[0;35m' CYAN='\033[0;36m' YELLOW='\033[1;33m'
+  else
+    NOFORMAT='' RED='' GREEN='' ORANGE='' BLUE='' PURPLE='' CYAN='' YELLOW=''
+  fi
+}
+
+msg() {
+  echo >&2 -e "${1-}"
+}
+
+die() {
+  local msg=$1
+  local code=${2-1} # default exit status 1
+  msg "$msg"
+  exit "$code"
+}
+
+parse_params() {
+  ide=''
+  action=''
+
+  while :; do
+    case "${1-}" in
+    -h | --help) usage ;;
+    -v | --verbose) set -x ;;
+    --no-color) NO_COLOR=1 ;;
+    -f | --flag) flag=1 ;;
+    -i | --ide)
+        ide="${2-}"
+        shift
+        ;;
+    -a | --action)
+        action="${2-}"
+        shift
+        ;;
+    -?*) die "Unknown option: $1" ;;
+    *) break ;;
+    esac
+    shift
+  done
+
+  args=("$@")
+
+  # check required params and arguments
+  [[ -z "${ide-}" ]] && die "Missing required parameter: ide"
+  [[ -z "${action-}" ]] && die "Missing required parameter: action"
+
+  return 0
+}
+
+# Invoke supported IDE actions using the IDE scripting console. See links for more details.
+# 
+# Supported IDE actions: https://github.com/JetBrains/intellij-community/blob/idea/231.8109.175/platform/ide-core/src/com/intellij/openapi/actionSystem/IdeActions.java
+# IDE scripting console: https://www.jetbrains.com/help/idea/ide-scripting-console.html
+generate_ide_script() {
+  cat <<EOF
+import com.intellij.openapi.actionSystem.ActionManager
+import com.intellij.openapi.actionSystem.AnAction
+import com.intellij.openapi.ui.Messages
+var actionManager = ActionManager.getInstance()
+IDE.application.invokeLater {
+  try {
+    var action = actionManager.getAction("$action")
+    var result = actionManager.tryToExecute(action, null, null, null, false)
+    if (result.rejected) {
+      Messages.showErrorDialog(result.error, "IDE action error")
+    }
+  } catch (ex) {
+    Messages.showErrorDialog(ex.message, "IDE action error")
+  }
+}
+EOF
+}
+
+parse_params "$@"
+setup_colors
+
+# Generate IDE script and execute the given action
+ide_script="$script_dir/$ide_script_name"
+generate_ide_script > "$ide_script"
+$ide ideScript "$ide_script"
+cleanup
+```
+
+The code is also available on GitHub as a [gist](https://gist.github.com/j4ckofalltrades/d7aac303466746e67287441e4fb9e0fe).
+
+## Demo: Launching the Help Menu (in Intellij IDEA) programmatically
+
+The `Help Menu` action is invoked programatically by clicking on a configured button on the Stream Deck.
+
+![Stream deck UI and an Intellij IDEA instance side-by-side running IDE actions launching the Help Menu in the IDE programatically](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709915929/blog/jetbrains-ide-actions_qyighl.gif)
+
+View full size image [here](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709915929/blog/jetbrains-ide-actions_qyighl.gif).
 
 I hope others find this useful; now on to configuring the Stream Deck.

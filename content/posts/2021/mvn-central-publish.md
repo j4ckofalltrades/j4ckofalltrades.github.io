@@ -16,6 +16,8 @@ featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760
 featuredImageAltText: "Sample package in Maven Central"
 ---
 
+Update (2024-03-08): Bump the `checkout` and `setup-java` action versions, and set target Java version to 17. 
+
 This guide walks you through the necessary steps to upload your package to the
 [Maven Central](https://repo.maven.apache.org/maven2) repository (and optionally
 to GitHub Packages registry) with some recommendations along the way.
@@ -30,7 +32,7 @@ to GitHub Packages registry) with some recommendations along the way.
 
   `groupId: io.github.j4ckofalltrades`
 
-  Alternatively if you want to use a custom domain, the group id should:
+  Alternatively if you want to use a custom domain, the group id should be:
 
   `groupId: com.your-custom-domain`
 
@@ -255,7 +257,7 @@ If the release was successful, you should be able to see your artifacts in the
 Central Repository at https://repo1.maven.org/maven2/ typically within ~30
 minutes. Updates to https://search.maven.org can take up to a couple of hours.
 
-## (Optional) Automation with GitHub Packages
+## Bonus: Automation with GitHub Actions
 
 You'll probably want to automate this process as part of your CI/CD pipeline.
 Here's how to set it up using GitHub Actions.
@@ -274,11 +276,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-java@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
         with:
-          distribution: 'adopt-openj9'
-          java-version: '11'
+          distribution: 'temurin'
+          java-version: '17'
       - run: ./gradlew publish
         env:
           GITHUB_ACTOR: ${{ github.actor }}
@@ -289,7 +291,6 @@ jobs:
           SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
 ```
 
-The configuration samples used here can also be checked out in full at this [GitHub
-repository]( https://github.com/j4ckofalltrades/steam-webapi-kt).
+The configuration samples used here can also be checked out in full at this [GitHub repository](https://github.com/j4ckofalltrades/steam-webapi-kt).
 
 That's it, time to get publishing.
