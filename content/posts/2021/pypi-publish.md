@@ -51,7 +51,7 @@ package
     | `__token__` | API token including the `pypi-` prefix |
 
     Alternatively you can also use a `.pypirc` file to define your package
-    indexes config i.e. TestPyPI, PyPi. If you choose to go this route, create
+    indexes config i.e. TestPyPI, PyPI. If you choose to go this route, create
     a `$HOME/.pypirc` file with the following contents:
 
     ```shell

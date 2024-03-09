@@ -18,9 +18,6 @@ featuredImageAltText: "Screenshot of a terminal running tmux and powerline"
 my dev environment setup, and have my config backed up as part of my
 [dotfiles](https://github.com/j4ckofalltrades/dotfiles).
 
-It shows helpful information and context for stuff I'm working on, as well as
-providing some eye-candy for my command line environment.
-
 While it comes with a lot of integrations out of the box i.e. `bash`, `zsh`,
 `tmux`, `vim`, etc, it also provides a way for you to write your own "segments".
 This should serve as a quick guide for rolling your own custom Powerline
