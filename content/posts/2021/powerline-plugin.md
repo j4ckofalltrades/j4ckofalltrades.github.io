@@ -139,7 +139,7 @@ your new segment.
 
 ## Troubleshooting
 
-Having issues with your plugin, try out the following:
+If you are having issues with your plugin, try out the following:
 
 - Run `powerline-lint` to check for errors in the configuration files i.e.
 colorscheme and/or segment config.
