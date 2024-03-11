@@ -23,9 +23,9 @@ paginate = 10
 [params]
   author = "Jordan Duabe"
   email = "me@jduabe.dev"
-  info = "Polyglot developer and open-source enthusiast"
+  info = "Polyglot developer | Open-source enthusiast"
   description = "Personal website and blog"
-  keywords = "blog,programmer,personal"
+  keywords = "blog,programmer"
   gravatar = "jordan.duabe@gmail.com"
 
   favicon_32 = "favicon-32x32.png"
@@ -74,22 +74,28 @@ paginate = 10
   url = "https://linkedin.com/in/jordan-duabe"
 
 [[params.social]]
+  name = "Dev"
+  icon = "fa-brands fa-dev fa-2x"
+  weight = 5
+  url = "https://dev.to/j4ckofalltrades"
+
+[[params.social]]
   name = "Discord"
   icon = "fa-brands fa-discord fa-2x"
-  weight = 5
+  weight = 6
   rel = "me"
   url = "https://discord.com/users/556870829539852349"
 
 [[params.social]]
   name = "YouTube"
   icon = "fa-brands fa-youtube fa-2x"
-  weight = 6
+  weight = 7
   url = "https://youtube.com/@j4ckofalltrades"
 
 [[params.social]]
   name = "RSS"
   icon = "fa-solid fa-rss fa-2x"
-  weight = 7
+  weight = 8
   url = "posts/index.xml"
   rel = "alternate"
   type = "application/rss+xml"
@@ -97,7 +103,7 @@ paginate = 10
 [[params.social]]
   name = "Key"
   icon = "fa fa-key fa-2x"
-  weight = 8
+  weight = 9
   url = "key.asc"
 
 [[menu.main]]
