@@ -1,5 +1,5 @@
 ---
-title: "Programatically invoking JetBrains IDE actions"
+title: "Programmatically invoking JetBrains IDE actions"
 description: "Performing actions via the JetBrains IDE scripting console"
 date: 2023-05-20T13:22:32+08:00
 draft: false
@@ -250,9 +250,9 @@ The code is also available on GitHub as a [gist](https://gist.github.com/j4ckofa
 
 ## Demo: Launching the Help Menu programmatically
 
-The `Help Menu` action is invoked programatically by clicking on a configured button on the Stream Deck.
+The `Help Menu` action is invoked programmatically by clicking on a configured button on the Stream Deck.
 
-![Stream deck UI and an Intellij IDEA instance side-by-side running IDE actions launching the Help Menu in the IDE programatically](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709915929/blog/jetbrains-ide-actions_qyighl.gif)
+![Stream deck UI and an Intellij IDEA instance side-by-side running IDE actions launching the Help Menu in the IDE programmatically](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709915929/blog/jetbrains-ide-actions_qyighl.gif)
 
 View full size image [here](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709915929/blog/jetbrains-ide-actions_qyighl.gif).
 
