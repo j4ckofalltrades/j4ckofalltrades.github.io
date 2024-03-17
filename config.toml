@@ -28,7 +28,7 @@ paginate = 10
 
 [services]
   [services.rss]
-    limit = 5
+    limit = 10
 
 [params]
   author = "Jordan Duabe"
