@@ -20,6 +20,16 @@ paginate = 10
     ordered = false
     startLevel = 2
 
+[outputs]
+  home = ['html']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
+[services]
+  [services.rss]
+    limit = 5
+
 [params]
   author = "Jordan Duabe"
   email = "me@jduabe.dev"
@@ -27,11 +37,6 @@ paginate = 10
   description = "Personal website and blog"
   keywords = "blog,programmer"
   gravatar = "jordan.duabe@gmail.com"
-
-  favicon_32 = "favicon-32x32.png"
-  favicon_16 = "favicon-16x16.png"
-  faviconSVG = "favicon.svg"
-  touchIcon = "apple-touch-icon.png"
 
   enableTwemoji = true
 
