@@ -17,10 +17,16 @@ toolkit), and a bunch of tips and tricks.
 
 - [Slides](https://github.com/j4ckofalltrades/talks/blob/main/git-deep-dive)
 
-## PyPI Trusted Publishing
+## Trusted Publishers  in PyPI
 
-:hammer: Under construction
+Trusted publishing is a "new" mechanism for uploading packages to the
+Python Package Index (PyPI).
 
-## Unpacking npm packages
+It leverages the OpenID Connect (OIDC) standard to facilitate the exchange
+of short-lived identity tokens between a trusted third-party service and PyPI.
+What's cool about this method is its applicability in automated environments
+(like GitHub Actions), offering a streamlined process that removes the need
+for manually generated API tokens for authentication for your publishing
+workflows.
 
-:hammer: Under construction
+- [Slides](https://github.com/j4ckofalltrades/talks/blob/main/pypi-trusted-publisher)
