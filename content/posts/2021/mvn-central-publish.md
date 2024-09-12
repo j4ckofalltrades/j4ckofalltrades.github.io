@@ -18,9 +18,8 @@ featuredImageAltText: "Sample package in Maven Central"
 
 _Update (2024-03-08): Bump the `checkout` and `setup-java` action versions, and set target Java version to 17._ 
 
-This guide walks you through the necessary steps to upload your package to the
-[Maven Central](https://repo.maven.apache.org/maven2) repository (and optionally
-to GitHub Packages registry) with some recommendations along the way.
+This guide walks you through the necessary steps to upload your package to the [Maven Central](https://repo.maven.apache.org/maven2) 
+repository (and optionally to GitHub Packages registry) with some recommendations along the way.
 
 {{< toc >}}
 
@@ -38,35 +37,31 @@ to GitHub Packages registry) with some recommendations along the way.
 
   `groupId: com.your-custom-domain`
 
-  You will also need to prove ownership of the public repository or the custom
-  domain. For the former you will be asked to create an empty repository using
-  the ticket number for your created OSSRH ticket e.g. `OSSRH-73148`; for the
-  latter you'll need to add a `TXT` record linked to the OSSRH ticket that was
-  created to register your `groupId`.
+  You will also need to prove ownership of the public repository or the custom domain. For the former
+  you will be asked to create an empty repository using the ticket number for your created OSSRH
+  ticket e.g. `OSSRH-73148`; for the latter you'll need to add a `TXT` record linked to the OSSRH
+  ticket that was created to register your `groupId`.
 
 ## Configure GPG/PGP key
 
-This will be used for signing your artifacts, at it is a requirement for
-publishing them to the Central Repository.
+This will be used for signing your artifacts, at it is a requirement for publishing them to the
+Central Repository.
 
-You'll need to generate a key pair and distribute it to a known key server
-(so that others can validate it).
+You'll need to generate a key pair and distribute it to a known key server (so that others can validate it).
 
-The following examples show how to do this with [GPG](https://gnupg.org); you
-can [download](https://gnupg.org) or install it using your package manager if
-it is not already available in your machine.
+The following examples show how to do this with [GPG](https://gnupg.org); you can [download](https://gnupg.org) or install it using your
+package manager if it is not already available in your machine.
 
 To generate a key pair, run:
 
 `$ gpg --gen-key`
 
-Fill in the details you are prompted for e.g. name, email, time of validity, and
-passphrase for the generated key. **This passphrase and your private key are all
-that is needed to sign artifacts with your signature.**
+Fill in the details you are prompted for e.g. name, email, time of validity, and passphrase for the generated key.
 
-Once the key pair is generated, you'll need to distribute your public key to a
-known key server i.e. `keyserver.ubuntu.com`. In order to do so, run the
-following commands:
+**This passphrase and your private key are all that is needed to sign artifacts with your signature.**
+
+Once the key pair is generated, you'll need to distribute your public key to a known key server i.e.
+`keyserver.ubuntu.com`. In order to do so, run the following commands:
 
 ```sh
 # list gpg keys
@@ -77,24 +72,22 @@ $ gpg --list-keys
 $ gpg --keyserver keyserver.ubuntu.com --send-keys <your_key_here>
 ```
 
-To check that your key was successfully uploaded, you can search for it at
-https://keyserver.ubuntu.com using your public key (and prepending '0x' to it).
+To check that your key was successfully uploaded, you can search for it at https://keyserver.ubuntu.com
+using your public key (and prepending '0x' to it).
 
 Other supported key servers are `keys.openpgp.org`, and `pgp.mit.edu`.
 
 ## Configure build script
 
-In order to publish your artifact to the Central Repository, it will need to
-meet the following requirements:
+In order to publish your artifact to the Central Repository, it will need to meet the following requirements:
 
 - Project coordinates
 - Javadoc and sources jar
 - POM metadata (includes project name and description, url, SCM info, license)
 - Sign artifacts with GPG/PGP
 
-The configuration will vary slightly depending on the build tool you are using,
-below is an abridged sample configuration `build.gradle.kts` file (Kotlin DSL)
-used with `gradle`:
+The configuration will vary slightly depending on the build tool you are using, below is an abridged
+sample configuration `build.gradle.kts` file (Kotlin DSL) used with `gradle`:
 
 ```kotlin
 // build.gradle.kts
@@ -223,19 +216,15 @@ signing {
 
 ## Publishing artifacts
 
-The configuration above uses the [in-memory ascii-armored keys](
-https://docs.gradle.org/current/userguide/signing_plugin.html#sec:in-memory-keys])
-approach for signing artifacts. Check out the docs for the [Gradle Signing
-Plugin](https://docs.gradle.org/current/userguide/signing_plugin.html) to find
-out what best suits your use case.
+The configuration above uses the [in-memory ascii-armored keys](https://docs.gradle.org/current/userguide/signing_plugin.html#sec:in-memory-keys]) approach for signing artifacts.
+Check out the docs for the [Gradle Signing Plugin](https://docs.gradle.org/current/userguide/signing_plugin.html) to find out what best suits your use case.
 
 Once everything is configured, publishing the artifacts is as simple as running:
 
 `$ gradle publish`
 
-Note that this will publish your artifacts to **all** target repositories, in
-order to publish to a specific repository you need to specify the repo _name_.
-Using the above configuration as an example:
+Note that this will publish your artifacts to **all** target repositories, in order to publish to a specific
+repository you need to specify the repo _name_. Using the above configuration as an example:
 
 ```sh
 # publish to Maven Central
@@ -247,25 +236,22 @@ $ gradle publishMavenJavaPublicationToGitHubPackagesToRepository
 
 ## Releasing artifacts
 
-Login to the [Nexus staging repository](https://s01.oss.sonatype.org/#stagingRepositories),
-where you should be able to see your `groupId` listed. In order to _sync_ the
-artifacts to the Central Repository you'll need to click on the `Close` button
-which will close said staging repository. 
+Login to the [Nexus staging repository](https://s01.oss.sonatype.org/#stagingRepositories), where you should be able to see your `groupId` listed.
+In order to _sync_ the artifacts to the Central Repository you'll need to click on the `Close` button which will
+close said staging repository. 
 
-The close operation will run a series of checks to ensure that the uploaded
-artifacts meet the [requirements](#configure-build-script).
+The close operation will run a series of checks to ensure that the uploaded artifacts meet the [requirements](#configure-build-script).
 
-If the release was successful, you should be able to see your artifacts in the
-Central Repository at https://repo1.maven.org/maven2/ typically within ~30
-minutes. Updates to https://search.maven.org can take up to a couple of hours.
+If the release was successful, you should be able to see your artifacts in the Central Repository at
+https://repo1.maven.org/maven2/ typically within ~30 minutes. Updates to https://search.maven.org
+can take up to a couple of hours.
 
 ## Bonus: Automation with GitHub Actions
 
-You'll probably want to automate this process as part of your CI/CD pipeline.
-Here's how to set it up using GitHub Actions.
+You'll probably want to automate this process as part of your CI/CD pipeline. Here's how to set it up using GitHub Actions.
 
-You'll need to add your OSSRH credentials, and signing key details as secrets
-to your repository, you can find this under Settings > Secrets.
+You'll need to add your OSSRH credentials, and signing key details as secrets to your repository, you can
+find this under `Settings > Secrets`.
 
 ```yaml
 name: Publish to OSSRH and GitHub Package Registry

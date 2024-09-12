@@ -22,11 +22,10 @@ featuredImageAltText: "Anne Pro 2 with custom wooden case and blank keycaps"
 
 ## Firmware
 
-Modified version of default keymap plus some Vim-inspired features e.g. soft
-escape (Esc when held, Ctrl when tapped), and media controls.
+Modified version of default keymap plus some Vim-inspired features e.g. soft escape (Esc when held,
+Ctrl when tapped), and media controls.
 
-Refer to [Open Anne Pro](https://openannepro.github.io/install/) for flashing
-instructions.
+Refer to [Open Anne Pro](https://openannepro.github.io/install/) for flashing instructions.
 
 ## Layout
 

@@ -23,6 +23,7 @@ is a 6×4+5 keys column-staggered split keyboard with encoder support. Based on 
 First time trying out ortholinear and split mechanical keyboards with this build.
 
 I generally prefer tactile switches, so I went with **AEBoard Naevy v1**'s lubed with **Krytox 205g0** for this build.
+
 Tried out **Katha Baybayin** (KAT), and **Blank Ergo** (DSA) keycaps; both looked good but settled with the latter.
 
 I think I spent more time messing around with my custom keymap than building the keyboard.

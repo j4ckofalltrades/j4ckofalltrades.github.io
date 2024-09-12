@@ -71,8 +71,8 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
   </figcaption>
 <figure>
 
-A lot of boards on display were also using the [Ice Kachang](https://www.keebzncables.com/products/ice-kachang-tactile-switches)
-switches, which are really nice tactile switches.
+A lot of boards on display were also using the [Ice Kachang](https://www.keebzncables.com/products/ice-kachang-tactile-switches) switches, which are really nice tactile switches.
+
 What's cool is that they're from a local keyboard enthusiast from Perth, go and check out [Keebz and Cables](https://www.keebzncables.com).
 
 Until the next meetup.

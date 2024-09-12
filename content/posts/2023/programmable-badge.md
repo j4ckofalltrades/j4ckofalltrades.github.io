@@ -15,8 +15,7 @@ featuredImageAltText: "Badger2040 with the header text WAMK Meetup 2023 and the 
 
 _Update (2024-03-08): Remove embedded gist and linked to GitHub instead._
 
-The [Badger2040](https://shop.pimoroni.com/products/badger-2040) is a programmable E Paper/eInk/EPD badge, powered by
-the [RP2040](https://www.raspberrypi.com/products/rp2040).
+The [Badger2040](https://shop.pimoroni.com/products/badger-2040) is a programmable E Paper/eInk/EPD badge, powered by the [RP2040](https://www.raspberrypi.com/products/rp2040).
 
 Some of its features:
 
@@ -32,21 +31,17 @@ I got one to play around with and to use as a digital lanyard / badge when atten
 
 ## Programming
 
-The Badger2040 ships with a custom [MicroPython](https://micropython.org/) build and a graphics library
-[PicoGraphics](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md) that
-contains useful utilities for drawing on the screen. There are also a couple of examples loaded on the device by
-default.
+The Badger2040 ships with a custom [MicroPython](https://micropython.org/) build and a graphics library [PicoGraphics](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md) that
+contains useful utilities for drawing on the screen. There are also a couple of examples loaded on the device by default.
 
-In order to write code or update / run the existing  code samples, you'll need to connect it to your computer and open
-up an IDE with MicroPython support i.e. [Thonny](https://thonny.org/).
+In order to write code or update / run the existing  code samples, you'll need to connect it to your computer and open up an IDE with MicroPython support i.e. [Thonny](https://thonny.org/).
 
-One thing to note is you opt to use a different IDE is to make sure to name the file as `main.py` as it will be
-automatically run once uploaded to the device (this is the default behavior of the RP2040), otherwise your code will not
-be executed.
+One thing to note is you opt to use a different IDE is to make sure to name the file as `main.py` as it will
+be automatically run once uploaded to the device (this is the default behavior of the RP2040), otherwise
+your code will not be executed.
 
-I ended up using [PyCharm](https://www.jetbrains.com/pycharm/) with the [MicroPython](https://plugins.jetbrains.com/plugin/9777-micropython)
-plugin, one extra step I needed to do was to point the plugin to the device which was located at `/dev/ttyACM0`
-(if you're on a Unix environment).
+I ended up using [PyCharm](https://www.jetbrains.com/pycharm/) with the [MicroPython](https://plugins.jetbrains.com/plugin/9777-micropython) plugin, one extra step I needed to do was to point
+the plugin to the device which was located at `/dev/ttyACM0` (if you're on a Unix environment).
 
 ## Drawing
 
@@ -126,8 +121,7 @@ display.text(
 
 ### Shapes
 
-There are quite a few functions available here, I just included the ones I used. You can check out the full list in the
-[Pico Graphics function reference](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/modules/picographics).
+There are quite a few functions available here, I just included the ones I used. You can check out the full list in the [Pico Graphics function reference](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/modules/picographics).
 
 __Line__ 
 

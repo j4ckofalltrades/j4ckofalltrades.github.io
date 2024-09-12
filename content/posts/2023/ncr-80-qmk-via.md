@@ -16,8 +16,9 @@ _Update (2024-03-09): The linked pull requests have been merged to the QMK and V
 
 I built a [NCR-80](https://jduabe.dev/posts/2022/ncr-80) custom mechanical keyboard last year, great-looking board especially if you like the retro aesthetic, and is a pleasure to type on.
 
-One thing I did notice was that the product listing points to a Google Drive link to the precompiled [firmware](https://drive.google.com/drive/folders/1e3mjUg-N15SFVrExlBiI01-XOKpPm9ry?usp=sharing),
-but it hasn't been added to the QMK and VIA repositories. I thought this would be a good weekend project (**Spoiler**: it took longer than a weekend).
+One thing I did notice was that the product listing points to a Google Drive link to the precompiled [firmware](https://drive.google.com/drive/folders/1e3mjUg-N15SFVrExlBiI01-XOKpPm9ry?usp=sharing), but it hasn't been added to the QMK and VIA repositories.
+
+I thought this would be a good weekend project (**Spoiler**: it took longer than a weekend).
 
 I wrote the steps of how I got it done (the steps also apply to any keyboard firmware).
 
@@ -25,8 +26,8 @@ I wrote the steps of how I got it done (the steps also apply to any keyboard fir
 
 ## Converting KBFirmware JSON to QMK
 
-The starting point is to convert the KBFirmware JSON from the provided "QMK" files from the product listing, and then
-converting them to QMK formatted files.
+The starting point is to convert the KBFirmware JSON from the provided "QMK" files from the product
+listing, and then converting them to QMK formatted files.
 
 There are a couple of tools that can be used for this purpose:
 
@@ -38,7 +39,8 @@ The resulting files will be the base of the QMK firmware for the keyboard.
 ## Creating a QMK pull request
 
 Make sure to read the [contribution guide](https://docs.qmk.fm/#/contributing?id=keyboards) as a first step.
-It is also a good idea to check out other supported keyboard firmware to get a feel for the directory structure, and conventions in use.
+It is also a good idea to check out other supported keyboard firmware to get a feel for the directory
+structure, and conventions in use.
 
 A keyboard firmware folder (simplified example) should look something like:
 
@@ -53,8 +55,8 @@ mt
 `-- rules.mk
 ```
 
-In cases where keyboards have multiple versions or revisions e.g. rev1, rev2 or hotswap/soldered, the directory structure
-will look different; refer to QMK's contribution guide linked above.
+In cases where keyboards have multiple versions or revisions e.g. rev1, rev2 or hotswap/soldered, the
+directory structure will look different; refer to QMK's contribution guide linked above.
 
 The default keymap (`keymap.c`) for the NCR-80 or any standard TKL keyboard should look like:
 
@@ -76,22 +78,23 @@ Link to the pull request on GitHub for reference: [\[Keyboard\] Add NCR-80](http
 
 ## Creating a VIA pull request
 
-In order to add VIA support for a keyboard, it is required to enable the VIA feature in QMK, and adding a `via`-compatible
-keymap for the keyboard. You can check out the QMK pull request linked above; look for the `keymaps/via` directory.
+In order to add VIA support for a keyboard, it is required to enable the VIA feature in QMK, and adding a 
+`via`-compatible keymap for the keyboard. You can check out the QMK pull request linked above; look for
+the `keymaps/via` directory.
 
 Read the VIA docs for [configuring QMK](https://www.caniusevia.com/docs/configuring_qmk) for a more in-depth guide.
-I also recommend reading about the [VIA spec](https://www.caniusevia.com/docs/specification).
 
-It is also required to have the QMK pull request merged in before contributing to the VIA repository.
+I also recommend reading about the [VIA spec](https://www.caniusevia.com/docs/specification). It is also required to have the QMK pull request merged in before contributing to the VIA repository.
 
 ## VIA V2 vs V3 definitions
 
-It is basically just a matter of copying the VIA `json` files from the Google Drive link referenced at the start of this post.
-The main difference here is the location of the definitions depend on the version; `V2` definitions are located in the
-`src/<manufacturer>/<keyboard>` directory while the `V3` definitions are in the `v3/<manufacturer>/<keyboard>`.
+It is basically just a matter of copying the VIA `json` files from the Google Drive link referenced
+at the start of this post. The main difference here is the location of the definitions depend on the
+version; `V2` definitions are located in the `src/<manufacturer>/<keyboard>` directory while the
+`V3` definitions are in the `v3/<manufacturer>/<keyboard>`.
 
-If you have a `V2` definition, you can convert it a `V3` definition by running the `scripts/build-all.ts` file in the
-[via keyboards](https://github.com/the-via/keyboards) repository.
+If you have a `V2` definition, you can convert it a `V3` definition by running the `scripts/build-all.ts`
+file in the [via keyboards](https://github.com/the-via/keyboards) repository.
 
 Link to the pull request on GitHub for reference: [Add support for NCR-80](https://github.com/the-via/keyboards/pull/1548)
 
