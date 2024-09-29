@@ -7,6 +7,12 @@ enableEmoji=true
 canonifyurls = true
 paginate = 10
 
+[module]
+[[module.mounts]]
+  source = "content"
+  target = "content"
+  excludeFiles = ['templates/**']
+
 [markup]
   [markup.highlight]
     noClasses = true
@@ -37,6 +43,7 @@ paginate = 10
   description = "Personal website and blog"
   keywords = "blog,programmer"
   gravatar = "jordan.duabe@gmail.com"
+  fediverseCreator = "@j4ckofalltrades@fosstodon.org"
 
   enableTwemoji = true
 

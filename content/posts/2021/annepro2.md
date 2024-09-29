@@ -1,17 +1,17 @@
 ---
-title: "Anne Pro 2 build"
-description: "Anne Pro 2 with QMK firmware"
+title: Anne Pro 2 build
+description: Anne Pro 2 with QMK firmware
 date: 2021-10-10T18:41:15+08:00
 draft: false
 categories:
-- keyboards
+  - keyboards
 tags:
-- 60%
-- qmk
+  - qmk
+  - 60_percent
 series:
-- "Custom mechanical keyboard builds"
-featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633803184/keebs/annepro2/annepro2_xqpg09.jpg"
-featuredImageAltText: "Anne Pro 2 with custom wooden case and blank keycaps"
+  - Custom mechanical keyboard builds
+featuredImage: https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633803184/keebs/annepro2/annepro2_xqpg09.jpg
+featuredImageAltText: Anne Pro 2 with custom wooden case and blank keycaps
 ---
 
 ## Mods

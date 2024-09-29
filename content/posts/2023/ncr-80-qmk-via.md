@@ -1,4 +1,4 @@
---- 
+---
 title: "NCR-80 QMK/VIA firmware"
 description: "QMK/VIA firmware for the NCR-80 keyboard"
 date: 2023-04-25T17:16:02+08:00
