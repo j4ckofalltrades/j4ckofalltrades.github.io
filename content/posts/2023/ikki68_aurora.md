@@ -13,6 +13,7 @@ series:
   - Custom mechanical keyboard builds
 featuredImage: https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676740613/keebs/ikki68_aurora_xa8pcq.jpg
 featuredImageAltText: Ikki68 Aurora custom mechanical keyboard
+mastodonPostID: 109885918444766509
 ---
 
 > Ikki68 Aurora is an affordable, injection molded, polycarbonate case, gasket-mount keyboard kit from Wuque Studio, the people behind Ikki68, OA Switches and more!

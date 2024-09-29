@@ -54,6 +54,12 @@ paginate = 10
   customSCSS = ["scss/custom.scss"]
   customJS = []
 
+  [params.mastodon]
+    host = "fosstodon.org"
+    username = "j4ckofalltrades"
+    purifyCDN = "https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"
+
+
 [taxonomies]
   category = "categories"
   series = "series"
