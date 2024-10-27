@@ -13,12 +13,12 @@ tags:
 - via
 series:
 - "Custom mechanical keyboard builds"
-featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1631712479/keebs/sofle/sofle_t9qeaa.jpg"
-featuredImageAltText: "Sofle V2 custom mechanical keyboard"
+featured_image:
+  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1631712479/keebs/sofle/sofle_t9qeaa.jpg"
+  alt_text: "Sofle V2 custom mechanical keyboard"
 ---
 
-The [SofleKeyboard](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html)
-is a 6×4+5 keys column-staggered split keyboard with encoder support. Based on the Lily58, Corne, and Helix keyboards.
+The [SofleKeyboard](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html) is a 6×4+5 keys column-staggered split keyboard with encoder support. Based on the Lily58, Corne, and Helix keyboards.
 
 First time trying out ortholinear and split mechanical keyboards with this build.
 
@@ -26,9 +26,7 @@ I generally prefer tactile switches, so I went with **AEBoard Naevy v1**'s lubed
 
 Tried out **Katha Baybayin** (KAT), and **Blank Ergo** (DSA) keycaps; both looked good but settled with the latter.
 
-I think I spent more time messing around with my custom keymap than building the keyboard.
-Coming from mostly TKL layouts, it was going to take a bit of experimenting to find the
-sweet spot when dealing with fewer keys.
+I think I spent more time messing around with my custom keymap than building the keyboard. Coming from mostly TKL layouts, it was going to take a bit of experimenting to find the sweet spot when dealing with fewer keys.
 
 I settled on a layout not too far off from the default one, some notable additions were:
 

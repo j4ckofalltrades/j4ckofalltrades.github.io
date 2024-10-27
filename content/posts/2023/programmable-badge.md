@@ -9,8 +9,9 @@ tags:
 - badger2040
 - rp2040
 - eink
-featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1688813596/blog/badger2040_x9iaec.jpg"
-featuredImageAltText: "Badger2040 with the header text WAMK Meetup 2023 and the attendee's name"
+featured_image:
+  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1688813596/blog/badger2040_x9iaec.jpg"
+  alt_text: "Badger2040 with the header text WAMK Meetup 2023 and the attendee's name"
 ---
 
 _Update (2024-03-08): Remove embedded gist and linked to GitHub instead._

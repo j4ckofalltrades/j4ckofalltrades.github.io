@@ -2,10 +2,12 @@
 title: 
 date: "{{date}}T{{time:HH:mm:ss:Z}}"
 description: 
-draft: false
+draft: true
 categories: 
 tags: 
 series: 
-featuredImage: 
-featuredImageAltText:
+featured_image:
+  url:
+  alt_text:
+mastodonPostID:
 ---

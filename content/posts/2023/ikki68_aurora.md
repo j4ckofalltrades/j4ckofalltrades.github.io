@@ -11,8 +11,11 @@ tags:
   - 65_percent
 series:
   - Custom mechanical keyboard builds
-featuredImage: https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676740613/keebs/ikki68_aurora_xa8pcq.jpg
-featuredImageAltText: Ikki68 Aurora custom mechanical keyboard
+images:
+  - "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676740613/keebs/ikki68_aurora_xa8pcq.jpg"
+featured_image:
+  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676740613/keebs/ikki68_aurora_xa8pcq.jpg"
+  alt_text: "Ikki68 Aurora custom mechanical keyboard"
 mastodonPostID: 109885918444766509
 ---
 

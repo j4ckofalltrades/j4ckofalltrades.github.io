@@ -11,8 +11,9 @@ tags:
   - via
 series:
   - Custom mechanical keyboard builds
-featuredImage: https://res.cloudinary.com/j4ckofalltrades/image/upload/v1644727344/keebs/preonic/preonic_lmffaq.jpg
-featuredImageAltText: OLKB Preonic custom mechanical keyboard
+featured_image:
+  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1644727344/keebs/preonic/preonic_lmffaq.jpg"
+  alt_text: "OLKB Preonic custom mechanical keyboard"
 ---
 
 > The original Preonic keyboard was praised for its build quality, compact form factor, and intuitive layout—and the new version is no different. However, this time around we're offering the CNC-aluminum case in your choice of five colors, including the striking new purple colorway. What's more, this version has a new ARM STM32 processor that provides more power to the PCBA and the USB-C connector. Another upgrade? The new Preonic has Kaihua hotswap sockets (which support grid 2x1u, 1x2u, and 2x2u bottom row layouts) so you can swap out your switches whenever you want without even picking up a soldering iron. Plus, If you’re new to keyboard kits, the compact Preonic is a great way to learn about keyboard programming.

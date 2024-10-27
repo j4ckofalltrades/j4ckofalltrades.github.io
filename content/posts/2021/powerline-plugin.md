@@ -10,8 +10,9 @@ tags:
 - powerline
 - pypi
 - python
-featuredImage: "https://raw.githubusercontent.com/j4ckofalltrades/dotfiles/master/assets/env.png"
-featuredImageAltText: "Screenshot of a terminal running tmux and powerline"
+featured_image:
+  url: "https://raw.githubusercontent.com/j4ckofalltrades/dotfiles/master/assets/env.png"
+  alt_text: "Screenshot of a terminal running tmux and powerline"
 ---
 
 [Powerline](https://github.com/powerline/powerline) is a tool I use as part of my dev environment setup, and have my config backed up as part of my [dotfiles](https://github.com/j4ckofalltrades/dotfiles).

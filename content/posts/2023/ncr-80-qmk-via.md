@@ -8,8 +8,9 @@ categories:
 tags:
 - qmk
 - via
-featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1645196848/keebs/ncr80/ncr-80_vnf9hq.jpg"
-featuredImageAltText: "NCR-80 custom mechanical keyboard with Katha Baybayin red, white, and blue keycaps"
+featured_image:
+  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1645196848/keebs/ncr80/ncr-80_vnf9hq.jpg"
+  alt_text: "NCR-80 custom mechanical keyboard with Katha Baybayin red, white, and blue keycaps"
 ---
 
 _Update (2024-03-09): The linked pull requests have been merged to the QMK and VIA repositories._

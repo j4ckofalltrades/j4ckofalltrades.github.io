@@ -8,8 +8,9 @@ categories:
 tags:
 - hacktoberfest
 - oss
-featuredImage: "https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_500/v1611377061/blog/20210123/hacktoberfest_y899nk.jpg"
-featuredImageAltText: "Hacktoberfest 2020 shirt"
+featured_image:
+  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_500/v1611377061/blog/20210123/hacktoberfest_y899nk.jpg"
+  alt_text: "Hacktoberfest 2020 shirt"
 ---
 
 This one's long overdue and when the swag arrived last week I figured I really need to get this done.
