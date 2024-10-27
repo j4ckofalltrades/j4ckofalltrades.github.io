@@ -1,6 +1,7 @@
 {{- if and (isset .Site.Params "mastodon") (not (eq (.Params.mastodonPostID | default "") "")) -}}
   <div class="article-content">
     <h2>Comments</h2>
+    <hr/>
     <p>You can use your Mastodon account to reply to this <a class="link" href="https://{{ .Site.Params.mastodon.host }}/@{{ .Site.Params.mastodon.username }}/{{ .Params.mastodonPostID }}">post</a>. Learn how this is implemented <a class="link" href="https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/">here.</a></p>
    <p><button id="replyButton" href="https://{{ .Site.Params.mastodon.host }}/@{{ .Site.Params.mastodon.username }}/{{ .Params.mastodonPostID }}">Reply</button></p>
     <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>

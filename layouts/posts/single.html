@@ -1,80 +1,73 @@
 {{ define "title" }}
-  {{ .Title }}
+{{ .Title }}
 {{ end }}
 {{ define "content" }}
-  <section class="container post">
-    <article>
-      <header>
-        <div class="post-title">
-          <h1 class="title">
-            <a class="title-link" href="{{ .Permalink | safeURL }}">
-              {{ .Title }}
-            </a>
-          </h1>
-        </div>
-        <div class="post-meta">
-          <div class="date">
-            <span class="posted-on">
-              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
-              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-                {{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
-              </time>
-            </span>
-            <span class="reading-time">
-              <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              {{ i18n "reading_time" .ReadingTime }}
-            </span>
-          </div>
-          {{ with .GetTerms "authors" }}{{ partial "taxonomy/authors.html" . }}{{ end }}
-          {{ with .GetTerms "categories" }}{{ partial "taxonomy/categories.html" . }}{{ end }}
-          {{ with .GetTerms "tags" }}{{ partial "taxonomy/tags.html" . }}{{ end }}
-        </div>
-      </header>
-
-      <div class="post-content">
-        {{ if .Params.featured_image }}
-          <img src="{{ .Params.featured_image.url | relURL }}" alt="{{ .Params.featured_image.alt_text}}"/>
-        {{ end }}
-        {{ .Content }}
+<section class="container post">
+  <article>
+    <header>
+      <div class="post-title">
+        <h1 class="title">
+          <a class="title-link" href="{{ .Permalink | safeURL }}">
+            {{ .Title }}
+          </a>
+        </h1>
       </div>
+      <div class="post-meta">
+        <div class="date">
+          <span class="posted-on">
+            <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+            <time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+              {{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+            </time>
+          </span>
+          <span class="reading-time">
+            <i class="fa-solid fa-clock" aria-hidden="true"></i>
+            {{ i18n "reading_time" .ReadingTime }}
+          </span>
+        </div>
+        {{ with .GetTerms "authors" }}{{ partial "taxonomy/authors.html" . }}{{ end }}
+        {{ with .GetTerms "categories" }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+        {{ with .GetTerms "tags" }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+      </div>
+    </header>
 
-      {{- if .Params.series -}}
-        {{- with index (.GetTerms "series") 0 -}}
-          <div class="notice--info">
-            <p>This post is part of the <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a> series.</p>
-          </div>
-        {{- end -}}
+    <div class="post-content">
+      {{- if .Params.featured_image -}}
+      <img src="{{ .Params.featured_image.url | relURL }}" alt="{{ .Params.featured_image.alt_text}}" />
       {{- end -}}
+      {{ .Content }}
+    </div>
 
     {{- if .Params.series -}}
-      <div class="post-series">
-        {{- $series := where .Site.RegularPages.ByDate ".Params.series" "intersect" .Params.series -}}
-        {{- with $series -}}
-        <ol>
-            {{- range . -}}
-            <li>
-                {{- if eq .File.UniqueID $.File.UniqueID -}}
-                    <b>{{ .Title }}</b>
-                {{- else -}}
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                {{- end -}}
-            </li>
-            {{- end -}}
-        </ol>
-        {{- end -}}
-      </div>
+    {{- with index (.GetTerms "series") 0 -}}
+    <h2>Series</h2>
+    <hr />
+    <div class="notice--info">
+      <p>This post is part of the <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a> series.</p>
+    </div>
+    {{- end -}}
     {{- end -}}
 
-      <footer>
-        {{ partial "posts/mastodon.html" . }}
-      </footer>
-    </article>
+    {{- if .Params.series -}}
+    <div class="post-series">
+      {{- $series := where .Site.RegularPages.ByDate ".Params.series" "intersect" .Params.series -}}
+      {{- with $series -}}
+      <ol>
+        {{- range . -}}
+        <li>
+          {{- if eq .File.UniqueID $.File.UniqueID -}}
+          <b>{{ .Title }}</b>
+          {{- else -}}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{- end -}}
+        </li>
+        {{- end -}}
+      </ol>
+      {{- end -}}
+    </div>
+    {{- end -}}
+  </article>
 
-    {{ partial "posts/math.html" . }}
-    <footer class="footer">
-      <section class="container">
-        <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
-      </section>
-    </footer>
-  </section>
+  {{ partial "posts/mastodon.html" . }}
+</section>
 {{ end }}

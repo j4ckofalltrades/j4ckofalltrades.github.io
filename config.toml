@@ -8,10 +8,10 @@ canonifyurls = true
 paginate = 10
 
 [module]
-[[module.mounts]]
-  source = "content"
-  target = "content"
-  excludeFiles = ['templates/**']
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    excludeFiles = ['templates/**']
 
 [markup]
   [markup.highlight]
@@ -39,10 +39,10 @@ paginate = 10
 [params]
   author = "Jordan Duabe"
   email = "me@jduabe.dev"
-  info = "Polyglot developer | Open-source enthusiast"
+  info = "Software Engineer"
   description = "Personal website and blog"
   keywords = "blog,programmer"
-  gravatar = "jordan.duabe@gmail.com"
+  gravatar = "me@jduabe.dev"
   fediverseCreator = "@j4ckofalltrades@fosstodon.org"
 
   enableTwemoji = true
@@ -58,7 +58,6 @@ paginate = 10
     host = "fosstodon.org"
     username = "j4ckofalltrades"
     purifyCDN = "https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"
-
 
 [taxonomies]
   category = "categories"
@@ -125,21 +124,16 @@ paginate = 10
   url = "key.asc"
 
 [[menu.main]]
-  name = "About"
-  weight = 1
-  url = "about/"
-
-[[menu.main]]
   name = "Blog"
-  weight = 2
+  weight = 1
   url  = "posts/"
 
 [[menu.main]]
   name = "Projects"
-  weight = 3
+  weight = 2
   url  = "projects/"
 
 [[menu.main]]
   name = "Talks"
-  weight = 4
+  weight = 3
   url  = "talks/"
