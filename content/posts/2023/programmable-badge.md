@@ -30,6 +30,8 @@ Some of its features:
 
 I got one to play around with and to use as a digital lanyard / badge when attending meetups.
 
+{{< toc >}}
+
 ## Programming
 
 The Badger2040 ships with a custom [MicroPython](https://micropython.org/) build and a graphics library [PicoGraphics](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md) that

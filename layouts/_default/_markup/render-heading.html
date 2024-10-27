@@ -1,4 +1,6 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
   {{ .Text | safeHTML }}
-  <a class="heading-link" href="#{{ .Anchor | safeURL }}" aria-hidden="true">§</a>
+  <a class="heading-link" href="#{{ .Anchor | safeURL }}" aria-hidden="true">
+    <i class="fa-solid fa-link" aria-hidden="true" title="{{ i18n "link_to_heading" | default "Link to heading" }}"></i>
+  </a>
 </h{{ .Level }}>
