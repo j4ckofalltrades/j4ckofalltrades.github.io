@@ -3,14 +3,14 @@ title: "TIL: Horizontal scrolling"
 date: 2024-10-29T23:37:34+08:00
 description: "Horizontal scrolling while holding the Shift key"
 draft: false
-categories: 
+categories:
 tags:
   - "til"
-series: 
-images: 
+series:
+images:
 featured_image:
-  url: 
-  alt_text: 
+  url:
+  alt_text:
 mastodonPostID:
 ---
 
@@ -20,4 +20,4 @@ I recently discovered this when I had to charge my daily driver -- a Logitech MX
 
 If you have natural scrolling turned off then scrolling down while holding down the `Shift` key scrolls the window to the right and vice versa.
 
-The great thing about this is that it works on Windows, MacOS, and Linux.
+The great thing about this is that it works on Windows, macOS, and Linux.
