@@ -132,8 +132,3 @@ paginate = 10
   name = "Projects"
   weight = 2
   url  = "projects/"
-
-[[menu.main]]
-  name = "Talks"
-  weight = 3
-  url  = "talks/"
