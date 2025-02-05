@@ -85,34 +85,27 @@ paginate = 10
   url = "https://fosstodon.org/@j4ckofalltrades"
 
 [[params.social]]
+  name = "ORCID"
+  icon = "fa-brands fa-orcid fa-2x"
+  weight = 4
+  url = "https://orcid.org/0009-0006-4805-0252"
+
+[[params.social]]
   name = "LinkedIn"
   icon = "fa-brands fa-linkedin-in fa-2x"
-  weight = 4
-  url = "https://linkedin.com/in/jordan-duabe"
-
-[[params.social]]
-  name = "Dev"
-  icon = "fa-brands fa-dev fa-2x"
   weight = 5
-  url = "https://dev.to/j4ckofalltrades"
-
-[[params.social]]
-  name = "Discord"
-  icon = "fa-brands fa-discord fa-2x"
-  weight = 6
-  rel = "me"
-  url = "https://discord.com/users/556870829539852349"
+  url = "https://linkedin.com/in/jordan-duabe"
 
 [[params.social]]
   name = "YouTube"
   icon = "fa-brands fa-youtube fa-2x"
-  weight = 7
+  weight = 6
   url = "https://youtube.com/@j4ckofalltrades"
 
 [[params.social]]
   name = "RSS"
   icon = "fa-solid fa-rss fa-2x"
-  weight = 8
+  weight = 7
   url = "posts/index.xml"
   rel = "alternate"
   type = "application/rss+xml"
@@ -120,8 +113,8 @@ paginate = 10
 [[params.social]]
   name = "Key"
   icon = "fa fa-key fa-2x"
-  weight = 9
-  url = "key.asc"
+  weight = 8
+  url = "https://keys.openpgp.org/search?q=me@jduabe.dev"
 
 [[menu.main]]
   name = "Blog"
