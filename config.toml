@@ -5,7 +5,8 @@ languagecode = "en"
 defaultcontentlanguage = "en"
 enableEmoji=true
 canonifyurls = true
-paginate = 10
+pagerSize = 10
+pluralizeListTitles = false
 
 [module]
   [[module.mounts]]
@@ -122,6 +123,11 @@ paginate = 10
   url  = "posts/"
 
 [[menu.main]]
-  name = "Projects"
+  name = "TIL"
   weight = 2
+  url  = "til/"
+
+[[menu.main]]
+  name = "Projects"
+  weight = 3
   url  = "projects/"
