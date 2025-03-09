@@ -76,12 +76,14 @@ pluralizeListTitles = false
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
   weight = 2
+  target = "_blank"
   url = "https://github.com/j4ckofalltrades"
 
 [[params.social]]
   name = "Mastodon"
   icon = "fa-brands fa-mastodon fa-2x"
   weight = 3
+  target = "_blank"
   rel = "me"
   url = "https://fosstodon.org/@j4ckofalltrades"
 
@@ -89,26 +91,16 @@ pluralizeListTitles = false
   name = "ORCID"
   icon = "fa-brands fa-orcid fa-2x"
   weight = 4
+  target = "_blank"
   url = "https://orcid.org/0009-0006-4805-0252"
-
-[[params.social]]
-  name = "LinkedIn"
-  icon = "fa-brands fa-linkedin-in fa-2x"
-  weight = 5
-  url = "https://linkedin.com/in/jordan-duabe"
-
-[[params.social]]
-  name = "YouTube"
-  icon = "fa-brands fa-youtube fa-2x"
-  weight = 6
-  url = "https://youtube.com/@j4ckofalltrades"
 
 [[params.social]]
   name = "RSS"
   icon = "fa-solid fa-rss fa-2x"
-  weight = 7
+  weight = 5
   url = "posts/index.xml"
   rel = "alternate"
+  target = "_blank"
   type = "application/rss+xml"
 
 [[params.social]]

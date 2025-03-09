@@ -31,6 +31,8 @@
 {{- $pages = $pages | first $limit }}
 {{- end }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+
+{{- printf "<?xml-stylesheet type=\"text/xsl\" href=\"/rss.xsl\"?>" | safeHTML }}
 <rss version="2.0"
   xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
   xmlns:atom="http://www.w3.org/2005/Atom">
