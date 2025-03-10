@@ -107,6 +107,7 @@ pluralizeListTitles = false
   name = "Key"
   icon = "fa fa-key fa-2x"
   weight = 8
+  target = "_blank"
   url = "https://keys.openpgp.org/search?q=me@jduabe.dev"
 
 [[menu.main]]
