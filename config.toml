@@ -111,7 +111,7 @@ pluralizeListTitles = false
   url = "https://keys.openpgp.org/search?q=me@jduabe.dev"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Posts"
   weight = 1
   url  = "posts/"
 
@@ -121,6 +121,11 @@ pluralizeListTitles = false
   url  = "til/"
 
 [[menu.main]]
-  name = "Projects"
+  name = "Blogroll"
   weight = 3
+  url  = "blogroll/"
+
+[[menu.main]]
+  name = "Projects"
+  weight = 4
   url  = "projects/"
