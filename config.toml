@@ -1,5 +1,5 @@
 baseurl = "https://jduabe.dev"
-title = "jduabe.dev"
+title = "Jordan Duabe's Weblog"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
