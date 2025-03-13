@@ -125,12 +125,17 @@ pluralizeListTitles = false
   weight = 3
   url  = "blogroll/"
 
- [[menu.main]]
+[[menu.main]]
   name = "Podroll"
   weight = 4
   url  = "podroll/"
 
 [[menu.main]]
-  name = "Projects"
+  name = "Colophon"
   weight = 5
+  url  = "colophon/"
+
+[[menu.main]]
+  name = "Projects"
+  weight = 6
   url  = "projects/"
