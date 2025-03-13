@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<opml version="1.0">
+	<head>
+		<title>Jordan's Podroll</title>
+	</head>
+	<body>
+		<outline text="History" title="History">
+			<outline text="The Rest Is History" type="rss" xmlUrl="https://feeds.megaphone.fm/GLT4787413333" />
+			<outline text="The Rest Is Classified" type="rss" xmlUrl="https://feeds.megaphone.fm/therestisclassified" />
+		</outline>
+		<outline text="Informative" title="Informative">
+			<outline text="Acquired" type="rss" xmlUrl="https://feeds.transistor.fm/acquired" />
+			<outline text="Dwarkesh Podcast" type="rss"  xmlUrl="https://api.substack.com/feed/podcast/69345.rss" />
+			<outline text="Radiolab" type="rss" xmlUrl="https://feeds.simplecast.com/EmVW7VGp" />
+			<outline text="Land of the Giants" type="rss" xmlUrl="https://feeds.megaphone.fm/landofthegiants" />
+		</outline>
+		<outline text="Self-hosting, Local-First Software" title="Self-hosting, Local-First Software">
+			<outline text="localfirst.fm" type="rss" xmlUrl="https://feeds.transistor.fm/localfirstfm" />
+			<outline text="Self-Hosted" type="rss" xmlUrl="https://feeds.fireside.fm/selfhosted/rss" />
+		</outline>
+		<outline text="Tech" title="Tech">
+			<outline text="Accidental Tech Podcast" type="rss" xmlUrl="https://cdn.atp.fm/rss/public?ahdowfn2" />
+			<outline text="Decoder with Nilay Patel" type="rss" xmlUrl="https://feeds.megaphone.fm/recodedecode" />
+			<outline text="Playdate Podcast" type="rss" xmlUrl="https://podcast.play.date/index.xml" />
+			<outline text="Tech Won&apos;t Save Us" type="rss" xmlUrl="https://feeds.buzzsprout.com/1004689.rss" />
+			<outline text="The 404 Media Podcast" type="rss" xmlUrl="https://feeds.megaphone.fm/TBIEA2761282490" />
+			<outline text="The Talk Show With John Gruber"  type="rss" xmlUrl="https://daringfireball.net/thetalkshow/rss" />
+			<outline text="The Vergecast" type="rss" xmlUrl="https://feeds.megaphone.fm/vergecast" />
+		</outline>
+		<outline text="Programming" title="Programming">
+			<outline text="Book Overflow" type="rss" xmlUrl="https://anchor.fm/s/f5bbb69c/podcast/rss" />
+			<outline text="The Changelog: Software Development, Open Source" xmlUrl="https://changelog.com/podcast/feed" type="rss" />
+			<outline text="CoRecursive: Coding Stories" type="rss" xmlUrl="https://corecursive.libsyn.com/feed" />
+			<outline text="Syntax - Tasty Web Development Treats" type="rss" xmlUrl="https://feed.syntax.fm/rss" />
+		</outline>
+		<outline text="Security" title="Security">
+			<outline text="Getting Defensive Podcast" type="rss" xmlUrl="https://gettingdefensive.com/feed/podcast/" />
+			<outline text="Troy Hunt&apos;s Weekly Update Podcast" type="rss" xmlUrl="https://www.omnycontent.com/d/playlist/1439345f-6152-486d-a9c2-a6bf0067f2b7/3ba9af7f-3bfb-48fd-aae7-a6bf00689c10/fde26e49-9fb8-457d-8f16-a6bf00696676/podcast.rss" />
+		</outline>
+	</body>
+</opml>

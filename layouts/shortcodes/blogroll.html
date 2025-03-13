@@ -2,7 +2,7 @@
 	<h2>{{- index . "-text" -}}</h2>
 	<ul>
 	{{- range index . "outline" -}}
-		<li><a href='{{- index . "-htmlUrl" -}}'>{{- index . "-text" -}}</a></li>
+		<li><a href='{{- index . "-htmlUrl" -}}'>{{- index . "-text" -}}</a> (<a href='{{- index . "-xmlUrl" -}}'>Feed</a>)</li>
 	{{- end -}}
 	</ul>
 {{- end -}}

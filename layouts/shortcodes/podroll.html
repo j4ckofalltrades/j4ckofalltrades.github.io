@@ -1,0 +1,8 @@
+{{- range $.Site.Data.podroll.body.outline -}}
+	<h2>{{- index . "-text" -}}</h2>
+    <ul>
+	{{- range index . "outline" -}}
+        <li><a href='{{- index . "-xmlUrl" -}}'>{{- index . "-text" -}}</a></li>
+	{{- end -}}
+    </ul>
+{{- end -}}
