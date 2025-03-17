@@ -26,7 +26,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
     Handwired Dactyl Manuform
   </figcaption>
 <figure>
-
+<br>
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1509_wkb8vv.jpg"
     alt="Polycarbonate southpaw Alice custom mechanical keyboard with blue, gray, and pink GMK Cobalt keycaps."
@@ -35,7 +35,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
     Custom southpaw Alice with GMK Cobalt keycaps and WS Heavy tactile switches
   </figcaption>
 <figure>
-
+<br>
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1513_tuqzmd.jpg"
     alt="White Glove 80 custom mechanical keyboard with white stock keycaps"
@@ -44,7 +44,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
     Glove 80 with Choc brown switches
   </figcaption>
 <figure>
-
+<br>
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1508_x0ezlw.jpg"
     alt="Blue GHS.JEM custom mechanical keyboard with blue GMK striker keycaps"
@@ -53,7 +53,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
     GHS.JEM with GMK striker keycaps and Creamsicles switches
   </figcaption>
 <figure>
-
+<br>
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1516_yfkb6x.jpg"
     alt="From L to R (top to bottom): Pink JTD Works Ovinnik, Pink S60 Proto, Pink Finderworks Tengu, and pink F1 Pink Cerakote custom mechanical keyboards."
@@ -62,7 +62,7 @@ Here's a couple of other interesting keyboards that I managed to take pictures o
     From L to R (top to bottom): JTD Works Ovinnik, S60 Proto, Finderworks Tengu, F1 Pink Cerakote
   </figcaption>
 <figure>
-
+<br>
 <figure>
   <img src="https://res.cloudinary.com/j4ckofalltrades/image/upload/c_scale,q_auto,w_1024/v1688804850/blog/wamk-2023/IMG_1515_b8db3w.jpg"
     alt="A table with a Sega Dreamcast gaming console running the 'Typing of the Dead' game with a 60% and 65% mechanical keyboards as controllers."
