@@ -14,7 +14,7 @@ asciinema: true
 ---
 With git recently celebrating its 20th birthday, this seemed like a good time to share and review my current git configuration.
 
-Most of the settings here are things that I've picked up from years of ~~messing up rebases~~ using git, I also highly recommend giving GitButler's blog post on [How Core Git Developers Configure](https://blog.gitbutler.com/how-git-core-devs-configure-git/) where I copied a couple of interesting and useful settings.
+Most of the settings here are things that I've picked up from years of ~~messing up rebases~~ using git, I also highly recommend giving GitButler's blog post on [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/) where I copied a couple of interesting and useful settings.
 
 Read on for a section by section breakdown or just skip ahead to the full [gitconfig](#my-gitconfig).
 
@@ -168,10 +168,10 @@ git config --global diff.algorithm histogram
 
 There are 4 diff algorithms that are shipped with git: `myers` (default), `minimal`, `patience`, and `histogram`.
 
-Here's an example of two diffs using different algortihms, the first one using the default `myers` algorithm and the other one using `histogram`.
+Here's an example of two diffs using different algorithms, the first one using the default `myers` algorithm and the other one using `histogram`.
 
 ```diff
- void func1() {
+void func1() {
      x += 1
 +}
 +
