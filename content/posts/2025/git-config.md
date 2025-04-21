@@ -350,10 +350,10 @@ In the example below, a different user email and signingKey is used depending on
 ```bash
 # .gitconfig
 [includeIf "gitdir:~/oss/"]
-  path = ~/.gitconfig-oss
+	path = ~/.gitconfig-oss
 
 [includeIf "gitdir:~/work/"]
-  path = ~/.gitconfig-work
+	path = ~/.gitconfig-work
 ```
 
 ```bash
