@@ -46,7 +46,7 @@ The most similar commands are
 
 ## Aliases
 
-Git allows you to configure your own commands and running external commands.
+Git allows you to configure your own custom commands and to run external commands.
 
 ```bash
 git config --global alias.lg "log --oneline --graph --abbrev-commit --date=relative"
@@ -69,7 +69,7 @@ Alternatively you can edit your `.gitconfig` file directly. If you have any exte
   sw = switch
 ```
 
-When your aliases are registered in git, they now behave as valid git commands which means they also benefit from git's autocompletion and autocorrect.
+When your aliases are registered in git, they behave as valid git commands which means they also benefit from git's autocompletion and autocorrect.
 
 ```bash
 # tab completion works for all aliases
@@ -328,7 +328,7 @@ Git hosting providers e.g. GitHub will then mark signed commits (or tags) that a
 
 ## Multiple profiles
 
-Imagine the following scenario, you have some repositories on your machine where you would like to associate with your work email and use your personal email for the other ones.
+Imagine the following scenario, you have repositories that you want to associate with your work email and your personal email for the other ones.
 
 ```bash
 $ tree
@@ -435,6 +435,11 @@ In the example below, a different user email and signingKey is used depending on
 [pull]
 	rebase = true
 
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
+
 [interactive]
 	diffFilter = delta --color-only
 
@@ -456,9 +461,11 @@ In the example below, a different user email and signingKey is used depending on
 
 [rerere]
 	enabled = true
+	autoUpdate = true
 
 [fetch]
 	prune = true
+	pruneTags = true
 
 [push]
 	simple = true
