@@ -28,7 +28,7 @@ Typos in your git commands? The following setting will search for the closest ma
 git config --global help.autocorrect prompt
 ```
 
-A prompt will only be shown if there's is only one command that's a significantly close match, otherwise it will exit and list all the commands that are close matches.
+A prompt will only be shown if there is only one command that's a significantly close match, otherwise it will exit and list all the commands that are close matches.
 
 ```bash
 $ git branhc
