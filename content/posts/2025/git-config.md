@@ -14,7 +14,7 @@ asciinema: true
 ---
 With git recently celebrating its 20th birthday, this seemed like a good time to share and review my current git configuration.
 
-Most of the settings here are things that I've picked up from years of ~~messing up rebases~~ using git, I also highly recommend giving GitButler's blog post on [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/) where I copied a couple of interesting and useful settings.
+Most of the settings here are things that I've picked up from years of ~~messing up rebases~~ using git, I also highly recommend reading GitButler's blog post on [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/) where I ~~stole~~ copied a couple of interesting and useful settings.
 
 Read on for a section by section breakdown or just skip ahead to the full [gitconfig](#my-gitconfig).
 
