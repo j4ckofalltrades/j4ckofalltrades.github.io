@@ -357,14 +357,14 @@ In the example below, a different user email and signingKey is used depending on
 ```
 
 ```bash
-# .gitconfig.oss
+# .gitconfig-oss
 [user]
 	email = my-oss-email.com
 	signingKey = ABC123DEF
 ```
 
 ```bash
-# gitconfig.work
+# .gitconfig-work
 [user]
 	email = my-work-email.com
 	signingKey = 101XYZ101

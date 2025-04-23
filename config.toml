@@ -17,7 +17,7 @@ pluralizeListTitles = false
 [markup]
   [markup.highlight]
     noClasses = true
-    style = "base16-snazzy"
+    style = "solarized-dark"
 
   [markup.goldmark.renderer]
     unsafe = true
