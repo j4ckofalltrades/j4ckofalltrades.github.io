@@ -44,7 +44,7 @@ pluralizeListTitles = false
   description = "Personal website and blog"
   keywords = "blog,programmer"
   gravatar = "me@jduabe.dev"
-  fediverseCreator = "@j4ckofalltrades@fosstodon.org"
+  fediverseCreator = "@j4ckofalltrades@infosec.exchange"
 
   enableTwemoji = true
 
@@ -85,7 +85,7 @@ pluralizeListTitles = false
   weight = 3
   target = "_blank"
   rel = "me"
-  url = "https://fosstodon.org/@j4ckofalltrades"
+  url = "https://infosec.exchange/@j4ckofalltrades"
 
 [[params.social]]
   name = "ORCID"

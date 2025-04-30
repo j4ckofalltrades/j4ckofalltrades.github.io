@@ -1,23 +1,28 @@
 {
-    "subject": "acct:j4ckofalltrades@fosstodon.org",
-    "aliases": [
-        "https://fosstodon.org/@j4ckofalltrades",
-        "https://fosstodon.org/users/j4ckofalltrades"
-    ],
-    "links": [
-        {
-            "rel": "http://webfinger.net/rel/profile-page",
-            "type": "text/html",
-            "href": "https://fosstodon.org/@j4ckofalltrades"
-        },
-        {
-            "rel": "self",
-            "type": "application/activity+json",
-            "href": "https://fosstodon.org/users/j4ckofalltrades"
-        },
-        {
-            "rel": "http://ostatus.org/schema/1.0/subscribe",
-            "template": "https://fosstodon.org/authorize_interaction?uri={uri}"
-        }
-    ]
+  "subject": "acct:j4ckofalltrades@infosec.exchange",
+  "aliases": [
+    "https://infosec.exchange/@j4ckofalltrades",
+    "https://infosec.exchange/users/j4ckofalltrades"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://infosec.exchange/@j4ckofalltrades"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://infosec.exchange/users/j4ckofalltrades"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://infosec.exchange/authorize_interaction?uri={uri}"
+    },
+    {
+      "rel": "http://webfinger.net/rel/avatar",
+      "type": "image/jpeg",
+      "href": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/424/855/818/236/840/original/951fd3163260059b.jpg"
+    }
+  ]
 }
