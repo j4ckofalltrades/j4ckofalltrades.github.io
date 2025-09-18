@@ -17,7 +17,7 @@ pluralizeListTitles = false
 [markup]
   [markup.highlight]
     noClasses = true
-    style = "solarized-dark"
+    style = "github-dark"
 
   [markup.goldmark.renderer]
     unsafe = true
