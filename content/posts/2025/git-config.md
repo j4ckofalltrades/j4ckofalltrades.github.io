@@ -3,14 +3,15 @@ title: What's in my .gitconfig?
 date: 2025-03-15T12:21:19+08:00
 description: Diving into my current git configuration.
 draft: false
-categories: 
+categories:
 tags:
   - git
   - gitconfig
-series: 
-images: 
-featured_image: 
+series:
+images:
+featured_image:
 asciinema: true
+mastodonPostID:
 ---
 With git recently celebrating its 20th birthday, this seemed like a good time to share and review my current git configuration.
 
