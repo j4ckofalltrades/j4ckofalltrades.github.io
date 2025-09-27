@@ -52,7 +52,7 @@ pluralizeListTitles = false
   hideColorSchemeToggle = false
 
   customCSS = []
-  customSCSS = []
+  customSCSS = ["scss/custom.scss"]
   customJS = []
 
   [params.mastodon]
