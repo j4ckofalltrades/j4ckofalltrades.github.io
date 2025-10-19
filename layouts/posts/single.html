@@ -32,9 +32,6 @@
     </header>
 
     <div class="post-content">
-      {{- if .Params.featured_image -}}
-      <img src="{{ .Params.featured_image.url | relURL }}" alt="{{ .Params.featured_image.alt_text}}" />
-      {{- end -}}
       {{ .Content }}
     </div>
 

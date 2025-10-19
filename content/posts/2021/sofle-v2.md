@@ -13,9 +13,6 @@ tags:
 - via
 series:
 - "Custom mechanical keyboard builds"
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1631712479/keebs/sofle/sofle_t9qeaa.jpg"
-  alt_text: "Sofle V2 custom mechanical keyboard"
 ---
 
 The [SofleKeyboard](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html) is a 6×4+5 keys column-staggered split keyboard with encoder support. Based on the Lily58, Corne, and Helix keyboards.

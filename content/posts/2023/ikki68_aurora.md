@@ -13,9 +13,6 @@ series:
   - Custom mechanical keyboard builds
 images:
   - "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676740613/keebs/ikki68_aurora_xa8pcq.jpg"
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676740613/keebs/ikki68_aurora_xa8pcq.jpg"
-  alt_text: "Ikki68 Aurora custom mechanical keyboard"
 mastodonPostID: 109885918444766509
 ---
 

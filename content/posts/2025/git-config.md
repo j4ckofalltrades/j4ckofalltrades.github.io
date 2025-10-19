@@ -3,16 +3,11 @@ title: What's in my .gitconfig?
 date: 2025-03-15T12:21:19+08:00
 description: Diving into my current git configuration.
 draft: false
-categories:
 tags:
   - git
   - gitconfig
-series:
-images:
-featured_image:
-asciinema: true
-mastodonPostID:
 ---
+
 With git recently celebrating its 20th birthday, this seemed like a good time to share and review my current git configuration.
 
 Most of the settings here are things that I've picked up from years of ~~messing up rebases~~ using git, I also highly recommend reading GitButler's blog post on [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/) where I ~~stole~~ copied a couple of interesting and useful settings.

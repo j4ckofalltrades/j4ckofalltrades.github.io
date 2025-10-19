@@ -9,9 +9,6 @@ tags:
 - bash
 - ide
 - automation
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709917134/blog/ide-scripting_w6bswp.png"
-  alt_text: "Intellij IDEA with a 'Hello world!' popup message"
 ---
 
 _Update (2024-03-08):_

@@ -1,6 +1,5 @@
 baseurl = "https://jduabe.dev"
 title = "Jordan Duabe's Weblog"
-theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 enableEmoji=true
@@ -13,6 +12,10 @@ pluralizeListTitles = false
     source = "content"
     target = "content"
     excludeFiles = ['templates/**']
+  [[module.imports]]
+    path = "github.com/luizdepra/hugo-coder"
+  [[module.imports]]
+    path = "cj.rs/gohugo-asciinema"
 
 [markup]
   [markup.highlight]

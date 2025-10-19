@@ -10,9 +10,6 @@ tags:
 - python
 series:
 - "Package registry publish guides"
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760759/blog/publish-guides/powerline-k8s_lfxh1c.png"
-  alt_text: "Sample package in the PyPI registry"
 ---
 
 _Update (2024-03-08): Bump the `checkout` and `setup-python` action versions, and set target `python`

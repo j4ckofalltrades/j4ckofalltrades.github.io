@@ -10,9 +10,6 @@ tags:
 - via
 series:
 - "Custom mechanical keyboard builds"
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1645196848/keebs/ncr80/ncr-80_vnf9hq.jpg"
-  alt_text: "NCR-80 custom mechanical keyboard"
 ---
 
 > *NCR-80 is a reimagination of the classic rebranded Cherry G81-3000 by NCR*

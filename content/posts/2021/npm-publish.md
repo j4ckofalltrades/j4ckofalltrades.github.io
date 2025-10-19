@@ -11,9 +11,6 @@ tags:
 - typescript
 series:
 - "Package registry publish guides"
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760759/blog/publish-guides/npm-publish_ssmdeh.png"
-  alt_text: "Sample package in the npm registry"
 ---
 
 _Update (2024-03-08): Bump the `checkout` and `setup-node` action versions, and set target `node` version to 18.x._

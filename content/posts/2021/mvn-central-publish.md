@@ -12,9 +12,6 @@ tags:
 - ossrh
 series:
 - "Package registry publish guides"
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633760759/blog/publish-guides/mvn-publish_jfglsn.png"
-  alt_text: "Sample package in Maven Central"
 ---
 
 _Update (2024-03-08): Bump the `checkout` and `setup-java` action versions, and set target Java version to 17._ 

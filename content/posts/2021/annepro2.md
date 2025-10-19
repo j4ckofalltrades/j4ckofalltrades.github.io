@@ -10,9 +10,6 @@ tags:
   - 60_percent
 series:
   - Custom mechanical keyboard builds
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/v1633803184/keebs/annepro2/annepro2_xqpg09.jpg"
-  alt_text: "Anne Pro 2 with custom wooden case and blank keycaps"
 ---
 
 ## Mods

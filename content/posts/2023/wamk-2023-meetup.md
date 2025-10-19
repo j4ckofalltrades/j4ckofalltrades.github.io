@@ -8,9 +8,6 @@ categories:
 tags:
 - wamk
 - meetup
-featured_image:
-  url: "https://res.cloudinary.com/j4ckofalltrades/image/upload/c_limit,w_900/v1688804851/blog/wamk-2023/IMG_1532_uow8at.jpg"
-  alt_text: "Preonic mechanical keyboard, StackOverflow macropad, and a Badger2040 used as a digital lanyard."
 ---
 
 I brought my Preonic and StackOverflow The Key macropad to the meetup, as well a [Badger2040](https://shop.pimoroni.com/products/badger-2040)

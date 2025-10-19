@@ -3,14 +3,9 @@ title: Trusted Publishing & Digital Attestations in the OSS Ecosystem
 date: 2025-09-18T23:19:09+08:00
 description: Usage and adoption of trusted publishing and digital attestations in OSS package registries
 draft: false
-categories:
 tags:
   - trusted-publishing
   - attestations
-series:
-images:
-featured_image:
-mastodonPostID:
 ---
 I recently presented a talk at [Python WA](https://www.meetup.com/pythonwa/events/308746488) about two security features that are available in software registries like PyPI (Python Package Index); trusted publishing and digital attestations and how they increase trust in the software supply chain.
 

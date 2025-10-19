@@ -3,16 +3,12 @@ title: npm package provenance stats
 date: 2025-09-18T23:19:09+08:00
 description: A static site that tracks which of the top 500 most-downloaded packages on npm have attestations
 draft: false
-categories:
 tags:
   - npm
   - trusted-publishing
   - attestations
-series:
-images:
-featured_image:
-mastodonPostID:
 ---
+
 While writing the slides for my [Trusted Publishing & Digital Attestations talk](/posts/2025/trusted-publishing-attestations), I was looking for a resource similar to [Are we PEP 740 yet?](https://trailofbits.github.io/are-we-pep740-yet/) -- which shows the top 360 most-downloaded packages on [PyPI](https://pypi.org) and which ones have been uploaded with attestations.
 
 ![PEP 740](/images/annotated-slides/trusted-publishing-attestations/slide-013.png)
