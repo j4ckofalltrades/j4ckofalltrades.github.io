@@ -2,7 +2,6 @@
 title: Colophon
 draft: false
 ---
-
 This blog is powered by [Hugo](https://gohugo.io), the [Coder theme](https://github.com/luizdepra/hugo-coder), and is hosted on [GitHub Pages](https://pages.github.com).
 
 All posts are written in [Markdown](https://en.wikipedia.org/wiki/Markdown) using [Obsidian](https://obsidian.md).

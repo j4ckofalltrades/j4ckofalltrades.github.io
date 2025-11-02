@@ -1,8 +1,13 @@
 {{- range $.Site.Data.podroll.body.outline -}}
 	<h2>{{- index . "-text" -}}</h2>
     <ul>
-	{{- range index . "outline" -}}
-        <li><a href='{{- index . "-xmlUrl" -}}'>{{- index . "-text" -}}</a></li>
+	{{- $outlines := index . "outline" -}}
+	{{- if reflect.IsSlice $outlines -}}
+		{{- range $outlines -}}
+        	<li><a href='{{- index . "-xmlUrl" -}}'>{{- index . "-text" -}}</a></li>
+		{{- end -}}
+	{{- else -}}
+		<li><a href='{{- index $outlines "-xmlUrl" -}}'>{{- index $outlines "-text" -}}</a></li>
 	{{- end -}}
     </ul>
 {{- end -}}
