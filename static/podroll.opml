@@ -24,7 +24,6 @@
         </outline>
         <outline text="Self-hosting, Local-First Software" title="Self-hosting, Local-First Software">
             <outline text="localfirst.fm" type="rss" xmlUrl="https://feeds.transistor.fm/localfirstfm"/>
-            <outline text="Self-Hosted" type="rss" xmlUrl="https://feeds.fireside.fm/selfhosted/rss"/>
         </outline>
         <outline text="Security" title="Security">
             <outline text="Open Source Security" type="rss" xmlUrl="http://opensourcesecuritypodcast.libsyn.com/rss"/>
