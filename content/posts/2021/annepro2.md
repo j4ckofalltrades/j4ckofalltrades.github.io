@@ -29,7 +29,7 @@ Refer to [Open Anne Pro](https://openannepro.github.io/install/) for flashing in
 
 View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/f1c23fc1769c9bb0b1872d2272a1f268)
 
-![AnnePro2 custom keymap](https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/anne-pro-2/assets/annepro2.png)
+{{< alt-text src="https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/anne-pro-2/assets/annepro2.png" description="AnnePro2 custom keymap" >}}
 
 ## Features
 

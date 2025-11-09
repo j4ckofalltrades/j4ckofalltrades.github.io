@@ -242,7 +242,7 @@ The code is also available on GitHub as a [gist](https://gist.github.com/j4ckofa
 
 The `Help Menu` action is invoked programmatically by clicking on a configured button on the Stream Deck.
 
-![Stream deck UI and an Intellij IDEA instance side-by-side running IDE actions launching the Help Menu in the IDE programmatically](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709915929/blog/jetbrains-ide-actions_qyighl.gif)
+{{< alt-text src="https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709915929/blog/jetbrains-ide-actions_qyighl.gif" description="Stream deck UI and an Intellij IDEA instance side-by-side running IDE actions launching the Help Menu in the IDE programmatically" >}}
 
 View full size image [here](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1709915929/blog/jetbrains-ide-actions_qyighl.gif).
 

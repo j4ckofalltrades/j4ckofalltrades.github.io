@@ -29,4 +29,4 @@ Features / customizations as follows:
 
 View in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/da3d61376c9baa30491ca660bd1a2565)
 
-![Preonic custom keymap](https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/preonic/assets/preonic.png)
+{{< alt-text src="https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/preonic/assets/preonic.png" description="Preonic custom keymap" >}}

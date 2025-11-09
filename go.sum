@@ -1,4 +1,6 @@
 cj.rs/gohugo-asciinema v0.0.0-20251012233751-c5d63d0aef89 h1:TwV1XbGsZqDfDP0oW3cyLcGxQsIvhcJk/FfB6/n08Zg=
 cj.rs/gohugo-asciinema v0.0.0-20251012233751-c5d63d0aef89/go.mod h1:LOi9TNDxS4FX8P9N0PzCrqwvnksxP++9dsYbyNL0Fus=
+github.com/j4ckofalltrades/hugo-alt-text v0.1.0 h1:yKyBoKHqAnTcwxUy5Bg2Jlu09/ZavGVZAZdhUU16/h4=
+github.com/j4ckofalltrades/hugo-alt-text v0.1.0/go.mod h1:N56AyCASaAhKZ+p9SHlp9P4AfbVyOXyeBXZ3o31Nck0=
 github.com/luizdepra/hugo-coder v0.0.0-20250829110205-cb13ec467161 h1:t6eaDBh8SWBpVo2Q1Gl2Bnnnw8bDN+Ns9TS87T7pBFY=
 github.com/luizdepra/hugo-coder v0.0.0-20250829110205-cb13ec467161/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=

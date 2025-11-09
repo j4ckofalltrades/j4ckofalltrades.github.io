@@ -266,7 +266,7 @@ delta has a lot of features and is very customizable, check out the [docs](https
 
 Side-by-side diff output:
 
-![git-delta side-by-side](https://res.cloudinary.com/j4ckofalltrades/image/upload/f_auto,q_auto/v1/blog/git-delta-side-by-side)
+{{< alt-text src="https://res.cloudinary.com/j4ckofalltrades/image/upload/f_auto,q_auto/v1/blog/git-delta-side-by-side" description="git-delta side-by-side" >}}
 
 ## Rebase
 
@@ -320,7 +320,7 @@ git config --global user.signingkey /path/to/.ssh/key.pub
 
 Git hosting providers e.g. GitHub will then mark signed commits (or tags) that are verifiable as _Verified_.
 
-![GitHub verified commit](https://res.cloudinary.com/j4ckofalltrades/image/upload/f_auto,q_auto/v1/blog/gh-verified-commit)
+{{< alt-text src="https://res.cloudinary.com/j4ckofalltrades/image/upload/f_auto,q_auto/v1/blog/gh-verified-commit" description="GitHub verified commit" >}}
 
 ## Multiple profiles
 

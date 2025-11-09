@@ -21,4 +21,4 @@ tags:
 
 I built a [site](https://jduabe.dev/are-we-trusted-publishing-yet) that shows a timeline of when each package registry added support for Trusted Publishing.
 
-![Screenshot of the main page of Are we Trusted Publishing yet](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1758984405/are-we-trusted-publishing-yet_s0e0du.png)
+{{< alt-text src="https://res.cloudinary.com/j4ckofalltrades/image/upload/v1758984405/are-we-trusted-publishing-yet_s0e0du.png" description="Screenshot of the main page of Are we Trusted Publishing yet" >}}

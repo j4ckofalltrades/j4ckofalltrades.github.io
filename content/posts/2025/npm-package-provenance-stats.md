@@ -11,7 +11,7 @@ tags:
 
 While writing the slides for my [Trusted Publishing & Digital Attestations talk](/posts/2025/trusted-publishing-attestations), I was looking for a resource similar to [Are we PEP 740 yet?](https://trailofbits.github.io/are-we-pep740-yet/) -- which shows the top 360 most-downloaded packages on [PyPI](https://pypi.org) and which ones have been uploaded with attestations.
 
-![PEP 740](/images/annotated-slides/trusted-publishing-attestations/slide-013.png)
+{{< alt-text src="/images/annotated-slides/trusted-publishing-attestations/slide-013.png" description="PEP 740" >}}
 
 I couldn't find one, so obviously the only logical next step is to build my [own](https://jduabe.dev/npm-package-provenance-stats/). Check out the source code at https://github.com/j4ckofalltrades/npm-package-provenance-stats.
 
@@ -104,7 +104,7 @@ The static site basically just reads the contents of the resulting JSON file and
 - Pink packages with a 🚫 come from an unsupported CI/CD provider
 - Packages with a 📄 use Trusted Publishing instead of long-lived API tokens
 
-![npm package provenance stats](/images/annotated-slides/trusted-publishing-attestations/slide-020.png)
+{{< alt-text src="/images/annotated-slides/trusted-publishing-attestations/slide-020.png" description="npm package provenance stats" >}}
 
 The last step is just a matter of configuring a scheduled workflow that fetches the package names and attestations, then deploys the static site.
 

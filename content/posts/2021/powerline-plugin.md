@@ -119,7 +119,7 @@ python3 -m pip install --editable .
 Installing the package in editable mode saves you from having to "re-install" to see the latest changes.
 If everything went well you should be able to see your new segment.
 
-![powerline-k8s](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1623588713/foss/powerline-k8s_uc0cxj.png)
+{{< alt-text src="https://res.cloudinary.com/j4ckofalltrades/image/upload/v1623588713/foss/powerline-k8s_uc0cxj.png" description="powerline-k8s" >}}
 
 ## Troubleshooting
 

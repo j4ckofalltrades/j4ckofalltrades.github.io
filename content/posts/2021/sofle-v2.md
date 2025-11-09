@@ -33,7 +33,7 @@ I settled on a layout not too far off from the default one, some notable additio
 - Toggling between layers when encoders are pressed
 - Encoder controls (additional layer/s when `Ctrl` or `Shift` is held)
 
-![SofleKeyboard custom keymap](https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/sofle-v2/assets/soflekeyboard.png)
+{{< alt-text src="https://raw.githubusercontent.com/j4ckofalltrades/keebs/master/sofle-v2/assets/soflekeyboard.png" description="SofleKeyboard custom keymap showing a 6x4+5 column-staggered split keyboard layout with 4 layers: QWERTY base layer, Raise layer with numbers and symbols, Lower layer with function keys and navigation, and Adjust layer with system controls. Each layer displays different key assignments across the split halves." >}}
 
 Aside from configuring the encoder actions (clockwise/counter-clockwise), it is also possible
 to add extra "layers" by combining them with modifiers.

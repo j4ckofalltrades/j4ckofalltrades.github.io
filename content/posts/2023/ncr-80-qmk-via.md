@@ -98,4 +98,4 @@ Link to the pull request on GitHub for reference: [Add support for NCR-80](https
 
 That's it, ~~once the pull request gets merged~~ VIA should be able to detect your keyboard.
 
-![VIA software showing the keymap for the NCR-80 custom mechanical keyboard](https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676107180/keebs/ncr80/ncr-80-via_hlgb5c.png)
+{{< alt-text src="https://res.cloudinary.com/j4ckofalltrades/image/upload/v1676107180/keebs/ncr80/ncr-80-via_hlgb5c.png" description="VIA software showing the keymap for the NCR-80 custom mechanical keyboard" >}}

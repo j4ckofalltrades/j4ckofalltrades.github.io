@@ -16,6 +16,8 @@ pluralizeListTitles = false
     path = "github.com/luizdepra/hugo-coder"
   [[module.imports]]
     path = "cj.rs/gohugo-asciinema"
+  [[module.imports]]
+    path = "github.com/j4ckofalltrades/hugo-alt-text"
 
 [markup]
   [markup.highlight]
