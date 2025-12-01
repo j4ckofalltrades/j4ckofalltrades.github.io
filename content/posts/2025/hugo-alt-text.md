@@ -1,7 +1,6 @@
----
-draft: false
+--- draft: false
 title: Hugo alt-text shortcode
-date: 2025-12-02T12:21:00+08:00
+date: 2025-12-02T01:21:00+08:00
 description: "Hugo alt text short code"
 tags:
   - hugo
