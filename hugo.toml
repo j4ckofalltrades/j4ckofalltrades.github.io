@@ -78,31 +78,38 @@ pluralizeListTitles = false
   url = "mailto:me@jduabe.dev"
 
 [[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 2
-  target = "_blank"
-  url = "https://github.com/j4ckofalltrades"
-
-[[params.social]]
   name = "Mastodon"
   icon = "fa-brands fa-mastodon fa-2x"
-  weight = 3
+  weight = 2
   target = "_blank"
   rel = "me"
   url = "https://infosec.exchange/@j4ckofalltrades"
 
 [[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 3
+  target = "_blank"
+  url = "https://github.com/j4ckofalltrades"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 4
+  target = "_blank"
+  url = "https://linkedin.com/in/jordan-duabe"
+
+[[params.social]]
   name = "ORCID"
   icon = "fa-brands fa-orcid fa-2x"
-  weight = 4
+  weight = 5
   target = "_blank"
   url = "https://orcid.org/0009-0006-4805-0252"
 
 [[params.social]]
   name = "RSS"
   icon = "fa-solid fa-rss fa-2x"
-  weight = 5
+  weight = 6
   url = "posts/index.xml"
   rel = "alternate"
   target = "_blank"
@@ -111,7 +118,7 @@ pluralizeListTitles = false
 [[params.social]]
   name = "Key"
   icon = "fa fa-key fa-2x"
-  weight = 8
+  weight = 7
   target = "_blank"
   url = "https://keys.openpgp.org/search?q=me@jduabe.dev"
 
