@@ -18,6 +18,8 @@
 
 {{ if .IsHome }}{{ partial "head/hugo-generator.html" . }}{{ end }}
 
+{{ if .IsHome }}<link rel="human-json" href="/human.json">{{ end }}
+
 {{ partial "head/extensions.html" . }}
 
 {{ partial "opengraph" . }}
