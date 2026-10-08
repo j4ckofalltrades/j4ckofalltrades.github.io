@@ -131,23 +131,3 @@ pluralizeListTitles = false
   name = "TIL"
   weight = 2
   url  = "til/"
-
-[[menu.main]]
-  name = "Blogroll"
-  weight = 3
-  url  = "blogroll/"
-
-[[menu.main]]
-  name = "Podroll"
-  weight = 4
-  url  = "podroll/"
-
-[[menu.main]]
-  name = "Colophon"
-  weight = 5
-  url  = "colophon/"
-
-[[menu.main]]
-  name = "Projects"
-  weight = 6
-  url  = "projects/"
