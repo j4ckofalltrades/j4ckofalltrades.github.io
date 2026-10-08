@@ -12,6 +12,8 @@ asciinema: false
 mastodonPostID:
 ---
 
+_Update (2026-10-09): Add official plugin download link._
+
 I wrote a simple Obsidian plugin complements the default Obsidian
 keyboard shortcuts for switching tabs (`Ctrl/Cmd 1-8`, `9` selects the last tab)
 by adding tab number _hints_.
@@ -27,8 +29,9 @@ Check out the code on [GitHub](https://github.com/j4ckofalltrades/obsidian-tab-n
 
 ## Installation
 
-Manual installation is currently the only supported method but there is an open PR
-to add it to the [plugin directory](https://github.com/obsidianmd/obsidian-releases/pull/8535).
+Install from the official [Obsidian Community Plugins](https://community.obsidian.md/plugins/tab-numbers) page.
+
+### Manual installation
 
 1. Download the following files `main.js`, `manifest.json`, `styles.css` from
 the latest release on [GitHub](https://github.com/j4ckofalltrades/obsidian-tab-numbers/releases/).
