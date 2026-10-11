@@ -100,16 +100,9 @@ pluralizeListTitles = false
   url = "https://linkedin.com/in/jordan-duabe"
 
 [[params.social]]
-  name = "ORCID"
-  icon = "fa-brands fa-orcid fa-2x"
-  weight = 5
-  target = "_blank"
-  url = "https://orcid.org/0009-0006-4805-0252"
-
-[[params.social]]
   name = "RSS"
   icon = "fa-solid fa-rss fa-2x"
-  weight = 6
+  weight = 5
   url = "posts/index.xml"
   rel = "alternate"
   target = "_blank"
@@ -118,7 +111,7 @@ pluralizeListTitles = false
 [[params.social]]
   name = "Key"
   icon = "fa fa-key fa-2x"
-  weight = 7
+  weight = 6
   target = "_blank"
   url = "https://keys.openpgp.org/search?q=me@jduabe.dev"
 

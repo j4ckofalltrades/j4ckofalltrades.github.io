@@ -15,6 +15,14 @@
       {{- range .Paginator.Pages -}}
         {{- .Render "li" -}}
       {{- end -}}
+      {{- if gt .Paginator.TotalPages 1 -}}
+        {{- range seq (sub .Paginator.PagerSize (len .Paginator.Pages)) -}}
+          <li class="placeholder" aria-hidden="true">
+            <span class="date">&nbsp;</span>
+            <span class="title">&nbsp;</span>
+          </li>
+        {{- end -}}
+      {{- end -}}
     </ul>
 
     {{ partial "pagination.html" . }}

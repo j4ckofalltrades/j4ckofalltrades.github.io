@@ -1,0 +1,30 @@
+{{ define "title" }}
+  Concerts
+{{ end }}
+{{ define "content" }}
+  <section class="container list">
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">
+          {{ .Title }}
+        </a>
+      </h1>
+    </header>
+    {{ .Content }}
+    <ul class="concert-years">
+      {{- $paginator := .Paginate .Pages.ByTitle.Reverse -}}
+      {{- range $paginator.Pages -}}
+        <li>
+          <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{- end -}}
+      {{- if gt $paginator.TotalPages 1 -}}
+        {{- range seq (sub $paginator.PagerSize (len $paginator.Pages)) -}}
+          <li class="placeholder" aria-hidden="true">&nbsp;</li>
+        {{- end -}}
+      {{- end -}}
+    </ul>
+
+    {{ partial "pagination.html" . }}
+  </section>
+{{ end }}
